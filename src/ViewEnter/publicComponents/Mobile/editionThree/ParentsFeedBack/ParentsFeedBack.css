@@ -1,0 +1,119 @@
+.parentsfeedBack {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 111vw;
+  margin: 0 auto 4rem;
+}
+.parentsfeedBack .swiperItem {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  transition: left 1s, right 1s, z-index 0s, opacity 0.5s 0.5s;
+  z-index: 0;
+}
+.parentsfeedBack .swiperItem .swpCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 55vw;
+  border-radius: 0.4rem;
+  line-height: 1;
+  transform: scale(0.8);
+  transition: all 1s;
+}
+.parentsfeedBack .swiperItem .swpCon .vioImg {
+  width: 100%;
+}
+.parentsfeedBack .swiperItem .swpCon .vioName {
+  color: #191919;
+  font-size: 1.39rem;
+  margin-top: 1.5rem;
+  font-weight: bold;
+}
+.parentsfeedBack .swiperItem .swpCon .vioTit {
+  color: #ff8000;
+  font-size: 0.94rem;
+  margin-top: 1rem;
+}
+.parentsfeedBack .swiperItem .swpCon .vioTxt {
+  color: #666;
+  font-size: 1.02rem;
+  margin-top: 0.8rem;
+}
+.parentsfeedBack .swiperItem .swpCon .tips {
+  color: #666;
+  font-size: 1.02rem;
+  margin-top: 0.8rem;
+}
+.parentsfeedBack .swiperItem .swpCon .vioBtn {
+  width: 9rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  margin-top: 3.5rem;
+}
+.parentsfeedBack .swiperItem.act {
+  z-index: 2;
+  opacity: 1;
+}
+.parentsfeedBack .swiperItem.act .swpCon {
+  transform: scale(1);
+}
+.parentsfeedBack .swiperItem.prev {
+  opacity: 1;
+  left: -40vw;
+  z-index: 1;
+}
+.parentsfeedBack .swiperItem.next {
+  opacity: 1;
+  right: -40vw;
+  z-index: 1;
+}
+.parentsfeedBack .swpdots {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+}
+.parentsfeedBack .swpdots .swpBtn {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  margin: 0.4rem;
+  background: #ff8000;
+  opacity: 0.5;
+}
+.parentsfeedBack .swpdots .swpBtn.act {
+  background: #ff8000;
+  opacity: 1;
+}
+.parentsfeedBack .swpbutton {
+  text-align: center;
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.parentsfeedBack .swpbutton span {
+  display: inline-block;
+  width: 3.36rem;
+  height: 3.36rem;
+  border-radius: 50%;
+  margin: 0 0.68rem;
+}
+.parentsfeedBack .swpbutton .pre {
+  background: url(image/prev.png) no-repeat center / cover;
+}
+.parentsfeedBack .swpbutton .next {
+  background: url(image/next.png) no-repeat center / cover;
+}

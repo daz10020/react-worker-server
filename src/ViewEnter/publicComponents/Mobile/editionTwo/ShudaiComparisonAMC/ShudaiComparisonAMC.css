@@ -1,0 +1,195 @@
+.comparison {
+  background: #f5f5f5;
+  padding-top: 4rem;
+}
+.comparison img {
+  width: 17rem;
+  height: 9rem;
+  display: block;
+  margin: 0 auto;
+}
+.comparison h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.88rem;
+  color: #000;
+  margin: 1rem 0 3rem 0;
+}
+.comparison .comparison_footer {
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  color: #666;
+  font-size: 0.85rem;
+}
+.comparison .comparsion_box {
+  width: 100%;
+  position: relative;
+}
+.comparison .comparsion_box #triangle-downs {
+  width: 0;
+  height: 0;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  border-bottom: 2rem solid #fff;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+  top: -1.67rem;
+}
+.comparison .comparsion_box .comparsion_con {
+  padding-top: 1rem;
+  background-color: #fff;
+  position: relative;
+  height: 52rem;
+  overflow: hidden;
+}
+.comparison .comparsion_box .comparsion_con > ul {
+  float: left;
+  margin: 0;
+  border-right: 1px solid #E3E3E3;
+}
+.comparison .comparsion_box .comparsion_con > ul li {
+  margin-bottom: 2rem;
+}
+.comparison .comparsion_box .comparsion_con > ul li:nth-child(1) {
+  margin-bottom: 1rem;
+}
+.comparison .comparsion_box .comparsion_con > ul li:nth-child(2) {
+  height: 3rem;
+}
+.comparison .comparsion_box .comparsion_con > ul li:nth-child(3) {
+  height: 4rem;
+}
+.comparison .comparsion_box .comparsion_con > ul li:nth-child(4) {
+  height: 3rem;
+}
+.comparison .comparsion_box .comparsion_con > ul li:nth-child(5) {
+  height: 6rem;
+}
+.comparison .comparsion_box .comparsion_con > ul li:nth-child(6) {
+  height: 7rem;
+}
+.comparison .comparsion_box .comparsion_con > ul li:nth-child(7) {
+  height: 5rem;
+}
+.comparison .comparsion_box .comparsion_con > ul li:nth-child(8) {
+  height: 3rem;
+}
+.comparison .comparsion_box .comparsion_con #one {
+  width: 6rem;
+  position: absolute;
+  background-color: #fff;
+}
+.comparison .comparsion_box .comparsion_con #one li {
+  color: #F3910D;
+  text-align: center;
+  font-size: 0.94rem;
+}
+.comparison .comparsion_box .comparsion_con #one li:nth-child(1) {
+  width: 100%;
+  height: 0.34rem;
+  background-color: #F3910D;
+}
+.comparison .comparsion_box .comparsion_con #one li:nth-child(6) {
+  line-height: 7rem;
+}
+.comparison .comparsion_box .comparsion_con #one li:nth-child(3) {
+  line-height: 4rem;
+}
+.comparison .comparsion_box .comparsion_con #one li:nth-child(4) {
+  line-height: 3rem;
+}
+.comparison .comparsion_box .comparsion_con #one li:nth-child(5) {
+  padding-top: 1rem;
+}
+.comparison .comparsion_box .comparsion_con #one li:nth-child(7) {
+  padding-top: 0.8rem;
+}
+.comparison .comparsion_box .comparsion_con #two {
+  width: 14rem;
+  position: absolute;
+  left: 6rem;
+  background-color: #fff;
+}
+.comparison .comparsion_box .comparsion_con #two li {
+  font-size: 0.94rem;
+  padding-left: 1rem;
+  color: #333;
+}
+.comparison .comparsion_box .comparsion_con #two li h3 {
+  font-size: 1.28rem;
+  color: #FF8000;
+  line-height: 2.13rem;
+  font-weight: 600;
+  text-align: center;
+}
+.comparison .comparsion_box .comparsion_con #two li:nth-child(1) {
+  width: 100%;
+  height: 0.34rem;
+  background-color: #FF8000;
+}
+.comparison .comparsion_box .comparsion_con > div {
+  left: 20rem;
+  z-index: 1;
+  position: absolute;
+}
+.comparison .comparsion_box .comparsion_con > div > ul {
+  width: 12rem;
+}
+.comparison .comparsion_box .comparsion_con > div > ul li {
+  font-size: 0.85rem;
+  padding-left: 1rem;
+  color: #666666;
+  margin-bottom: 2rem;
+}
+.comparison .comparsion_box .comparsion_con > div > ul li h3 {
+  font-size: 1.28rem;
+  display: inline-block;
+  color: #666;
+  line-height: 2.13rem;
+  font-weight: 600;
+}
+.comparison .comparsion_box .comparsion_con > div > ul li h3:nth-child(2) {
+  margin-left: 2rem;
+}
+.comparison .comparsion_box .comparsion_con > div > ul li .active {
+  background-color: #666666;
+  color: #fff;
+}
+.comparison .comparsion_box .comparsion_con > div > ul > li:nth-child(1) {
+  width: 100%;
+  height: 0.34rem;
+  background-color: #aaa;
+  margin-bottom: 1rem;
+}
+.comparison .comparsion_box .comparsion_con > div > ul > li:nth-child(2) {
+  height: 3rem;
+}
+.comparison .comparsion_box .comparsion_con > div > ul #slideSon > ul {
+  display: none;
+}
+.comparison .comparsion_box .comparsion_con > div > ul #slideSon > ul li:nth-child(1) {
+  height: 4rem;
+}
+.comparison .comparsion_box .comparsion_con > div > ul #slideSon > ul li:nth-child(2) {
+  height: 3rem;
+}
+.comparison .comparsion_box .comparsion_con > div > ul #slideSon > ul li:nth-child(3) {
+  height: 6rem;
+}
+.comparison .comparsion_box .comparsion_con > div > ul #slideSon > ul li:nth-child(4) {
+  height: 7rem;
+}
+.comparison .comparsion_box .comparsion_con > div > ul #slideSon > ul li:nth-child(5) {
+  height: 5rem;
+}
+.comparison .comparsion_box .comparsion_con > div > ul #slideSon > ul li:nth-child(6) {
+  height: 3rem;
+}
+.comparison .comparsion_box .comparsion_con > div > ul #slideSon .show {
+  display: block;
+}

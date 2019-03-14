@@ -1,0 +1,83 @@
+.newyear {
+  height: 100%;
+  position: relative;
+}
+.newyear .layer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  background: url('../images/bg1.png') center center no-repeat;
+  background-size: 100% 100%;
+  padding-top: 1.2rem;
+}
+.newyear .layer .logo {
+  text-align: center;
+}
+.newyear .layer .logo img {
+  width: 12.42rem;
+  height: 2.54rem;
+}
+.newyear .layer .title {
+  text-align: center;
+}
+.newyear .layer .title img {
+  width: 27.375rem;
+  height: 12.5rem;
+}
+.newyear .layer .gift {
+  text-align: center;
+  position: relative;
+  margin-top: -0.6rem;
+}
+.newyear .layer .gift > img {
+  width: 30.42rem;
+  height: 23.875rem;
+}
+.newyear .layer .gift span {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.newyear .layer .gift span img {
+  width: 9.58rem;
+  height: 2.67rem;
+}
+.newyear .draw {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  background: url('../images/bg2.png') center center no-repeat;
+  background-size: 100% 100%;
+  padding-top: 1.2rem;
+}
+.newyear .draw .logo {
+  text-align: center;
+}
+.newyear .draw .logo img {
+  width: 12.42rem;
+  height: 2.54rem;
+}
+.newyear .draw .title {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.newyear .draw .title img {
+  width: 30.625rem;
+  height: 4.92rem;
+}
+.newyear .draw .content div {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.newyear .draw .content div img {
+  width: 8.33rem;
+  height: 10.42rem;
+  margin: 0 0.8rem;
+}

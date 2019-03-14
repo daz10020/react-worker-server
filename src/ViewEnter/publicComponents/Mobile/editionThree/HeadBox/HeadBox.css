@@ -1,0 +1,29 @@
+.headBox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  background: #fff;
+}
+.headBox .logoImg {
+  height: 3.4rem;
+}
+.headBox .callInp {
+  position: absolute;
+  width: 2.7rem;
+  height: 5rem;
+  right: 1.8rem;
+  z-index: 2;
+}
+.headBox .callImg {
+  width: 2.7rem;
+  position: absolute;
+  right: 1.8rem;
+  top: 1.15rem;
+  z-index: 1;
+}

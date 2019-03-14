@@ -1,0 +1,72 @@
+.section_dialog {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+.section_dialog .section_dialog_box {
+  width: 80%;
+  position: fixed;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  background-color: #FFFFFF;
+  border-radius: 0.43rem;
+  box-shadow: 0 0 20px rgba(9, 9, 9, 0.2);
+}
+.section_dialog .section_dialog_box .title {
+  text-align: center;
+  font-size: 1.72rem;
+  color: #FF8000;
+  line-height: 2.15rem;
+  padding-top: 1.85rem;
+}
+.section_dialog .section_dialog_box .dialong_content .dialong_input {
+  width: 90%;
+  margin: 5% auto 0;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 3rem;
+  line-height: 3rem;
+}
+.section_dialog .section_dialog_box .dialong_content .dialong_input .el-input {
+  height: 3.44rem;
+}
+.section_dialog .section_dialog_box .dialong_content .dialong_input .el-input .el-input__inner {
+  border: 1px solid #CCCCCC;
+  border-radius: 1.72rem;
+}
+.section_dialog .section_dialog_box .dialong_content .dialong_input .el-input .el-input__inner:focus {
+  border-color: rgba(255, 100, 37, 0.45);
+}
+.section_dialog .section_dialog_box .dialong_content .dialong_input .el-input .el-input__inner {
+  height: 3.44rem;
+  padding-left: 1.8rem;
+}
+.section_dialog .section_dialog_box .dialong_content .dialong_input:first-child {
+  margin: 1.64rem auto 0;
+}
+.section_dialog .section_dialog_box .dialong_button {
+  background: linear-gradient(to right, #FF8000, #FF6425);
+  height: 3.44rem;
+  width: 90%;
+  margin: 5% auto 0;
+  font-size: 1.38rem;
+  line-height: 3.44rem;
+  margin: 2rem auto 0;
+  color: #fff;
+  text-align: center;
+  border-radius: 1.72rem;
+  margin-bottom: 2.24rem;
+}
+.section_dialog .section_dialog_box .dialong_close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}

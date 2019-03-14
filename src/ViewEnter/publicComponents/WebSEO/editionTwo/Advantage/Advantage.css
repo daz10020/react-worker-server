@@ -1,0 +1,30 @@
+.advantages {
+  text-align: center;
+}
+.advantages h3 {
+  font-size: 0.73rem;
+  color: #000000;
+  line-height: 0.83rem;
+  font-weight: 600;
+  padding-top: 1rem;
+  margin: 0;
+}
+.advantages p {
+  font-size: 0.47rem;
+  color: #333333;
+  line-height: 0.6rem;
+  padding-top: 0.3rem;
+}
+.advantages b {
+  background-color: #4a4a4a;
+  display: block;
+  margin: 0 auto;
+  height: 0.06666667rem;
+  width: 1.11666667rem;
+  border-radius: 0.16666667rem;
+  margin-top: 0.31666667rem;
+}
+.advantages img {
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}

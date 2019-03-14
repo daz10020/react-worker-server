@@ -1,0 +1,61 @@
+.MSider aside > ul {
+  width: 20rem;
+  margin: 0 auto;
+  position: relative;
+}
+.MSider aside > ul > div {
+  position: absolute;
+  top: 70%;
+  transform: translate(-50%);
+  width: 0.8rem;
+  height: 0.8rem;
+  cursor: pointer;
+}
+.MSider aside > ul > div > img {
+  width: 100%;
+}
+.MSider aside > ul > div:nth-child(3) {
+  right: 0;
+}
+.MSider aside > ul > li {
+  width: 16.4rem;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.MSider aside > ul > li > ol {
+  width: 70rem;
+  height: 5rem;
+}
+.MSider aside > ul > li > ol > li {
+  width: 16.4rem;
+  float: left;
+}
+.MSider aside > ul > li > ol > li > h2 {
+  text-align: center;
+  font-size: 0.73rem;
+  font-weight: 600;
+  padding-top: 1rem;
+}
+.MSider aside > ul > li > ol > li b {
+  background-color: #4a4a4a;
+  display: block;
+  margin: 0.5rem auto 0.6rem;
+  height: 0.06666667rem;
+  width: 1.11666667rem;
+  border-radius: 0.16666667rem;
+}
+.MSider aside > ul > li > ol > li > ul > li {
+  width: 16.4rem;
+  float: left;
+  height: 5rem;
+  display: flex;
+  background-color: #F5F5F5;
+  border-radius: 0.2rem;
+  font-size: 0.3rem;
+  color: #000;
+}
+.MSider aside > ul > li > ol > li > ul > li > p {
+  width: 12.05rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+}

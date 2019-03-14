@@ -1,0 +1,19 @@
+.PopupFrame {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  background: rgba(34, 34, 34, 0.3);
+}
+.PopupFrame .content {
+  width: 28.16rem;
+  min-height: 20rem;
+  background: #ffffff;
+  border-radius: 0.34rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,21 @@
+.logo{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 100;
+    transition: all 1s;
+    .logoc {
+      position: absolute;
+      left: 72%;
+      top: 18%;
+      display: none;
+      &:hover {
+        display: block;
+      }
+    }
+    .logom:hover {
+      &+.logoc {
+        display: block;
+      }
+    }
+  }

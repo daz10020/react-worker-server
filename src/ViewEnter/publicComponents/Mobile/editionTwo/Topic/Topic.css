@@ -1,0 +1,50 @@
+.two_box_content {
+  overflow: hidden;
+  width: 27.67rem;
+  margin: 0 auto;
+  height: 16rem;
+}
+.two_box_content .two_box_c_left {
+  padding-top: 1.33rem;
+  width: 50%;
+  margin-right: 0;
+  float: left;
+}
+.two_box_content .two_box_c_left li {
+  font-size: 1.08rem;
+  color: #4A4A4A;
+  letter-spacing: 0;
+  line-height: 2.67rem;
+  width: 12.08rem;
+  margin-left: 2.5rem;
+}
+.two_box_content .two_box_c_left li i {
+  font-style: normal;
+}
+.two_box_content .two_box_c_left li span {
+  padding-left: 2rem;
+}
+.two_box_content .two_box_c_right {
+  float: right;
+  padding-top: 1.33rem;
+  width: 50%;
+  margin-right: 0;
+}
+.two_box_content .two_box_c_right li {
+  font-size: 1.08rem;
+  color: #4A4A4A;
+  letter-spacing: 0;
+  line-height: 2.67rem;
+  width: 12.08rem;
+  margin-left: 2rem;
+}
+.two_box_content .two_box_c_right li i {
+  font-style: normal;
+}
+.two_box_content .two_box_c_right li span {
+  padding-left: 2rem;
+}
+.two_box_content .two_box_c_right li:last-child {
+  padding-left: 0;
+  margin-left: -1.7rem;
+}

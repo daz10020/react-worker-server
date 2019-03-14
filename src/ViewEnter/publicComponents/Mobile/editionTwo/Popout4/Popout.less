@@ -1,0 +1,87 @@
+.diaWrap {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 3;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .dialog {
+    z-index: 5;
+    width: calc(100vw - 4rem);
+    margin-top: 15vh;
+    background: #fff;
+    padding: 2.5rem 3rem;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 0 0.4rem 0.8rem rgba(9,9,9,0.15);
+    -moz-box-shadow: 0 0.4rem 0.8rem rgba(9,9,9,0.15);
+    box-shadow: 0 0.4rem 0.8rem rgba(9,9,9,0.15);
+    .diaTit {
+      font-size: 2rem;
+      color: #191919;
+      line-height: 1;
+      margin-bottom: 1.5rem;
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+      .clsBtn {
+        width: 1rem;
+        .clsImg {
+          width: 1rem;
+        }
+      }
+    }
+    .ant-form-item:last-child {
+      margin-bottom: 0;
+    }
+    .formItem {
+      margin-bottom: 1rem;
+      .diaInp {
+        height: 3.4rem;
+        border-radius: 1.7rem;
+        border: 1px solid #e8e8e8;
+        .ant-input-prefix {
+          font-size: 1.6rem;
+          color: #b4b4b4;
+        }
+        .ant-input {
+          border-radius: 1.7rem;
+          padding-left: 4rem;
+          border: 0;
+          font-size: 1.1rem;
+        }
+      }
+    }
+    .diaBtn {
+      border: 0;
+      height: 3.4rem;
+      border-radius: 1.7rem;
+      width: 100%;
+      color: #fff;
+      margin-top: 1.5rem;
+      font-size: 1.2rem;
+      background: linear-gradient(to right, #FF8000, #FF6425);
+      -webkit-box-shadow:  0 0.4rem 1rem rgba(255,128,0,.6);
+      -moz-box-shadow:  0 0.4rem 1rem rgba(255,128,0,.6);
+      box-shadow:  0 0.4rem 1rem rgba(255,128,0,.6);
+    }
+  }
+  .modalbg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 4;
+    background-color: rgba(0, 0, 0, .3);
+  }
+  .ant-form-explain {
+    padding-left: 11px;
+  }
+}
+.none {
+  display: none;
+}

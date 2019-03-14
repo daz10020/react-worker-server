@@ -1,0 +1,81 @@
+.four_content_table {
+  height: 4rem;
+  width: 19.41rem;
+  position: relative;
+  margin: 0 auto;
+  z-index: 2;
+}
+.four_content_table .four_table_left {
+  opacity: 0.81;
+  background: #FF8000;
+  width: 3.43rem;
+  height: 4rem;
+  float: left;
+}
+.four_content_table .four_table_left li {
+  height: 1rem;
+  width: 100%;
+  line-height: 1rem;
+  text-align: center;
+  border-bottom: 0.03rem solid #d7d7d7;
+  font-size: 0.3rem;
+  color: #ffffff;
+}
+.four_content_table .four_table_left li:nth-child(1) {
+  height: 2rem;
+  line-height: 2rem;
+}
+.four_content_table .four_table_right {
+  background-color: #fff;
+  height: 4rem;
+  float: right;
+}
+.four_content_table .four_table_right .four_right_top {
+  height: 2rem;
+  border: 0.03rem solid #EEEEEE;
+  width: 15.98rem;
+  border-left: none;
+}
+.four_content_table .four_table_right .four_right_top li {
+  float: left;
+  line-height: 1rem;
+  text-align: left;
+  font-size: 0.33rem;
+  color: #000;
+  margin-left: 0.53rem;
+}
+.four_content_table .four_table_right .four_right_top li:first-child,
+.four_content_table .four_table_right .four_right_top li:nth-child(6) {
+  margin-left: 0.58rem;
+}
+.four_content_table .four_table_right .four_right_top li:nth-child(6) {
+  width: 2.84rem;
+}
+.four_content_table .four_table_right .four_right_bottom {
+  height: 1rem;
+  border-bottom: 2px solid #EEEEEE;
+  width: 15.98rem;
+}
+.four_content_table .four_table_right .four_right_bottom ul {
+  margin-bottom: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.four_content_table .four_table_right .four_right_bottom ul li {
+  width: 50%;
+  float: left;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 0.33rem;
+  color: #4a4a4a;
+  border-right: 0.03rem solid #EEEEEE;
+}
+.four_content_table img {
+  position: absolute;
+  top: -1.1rem;
+  right: 1rem;
+  width: 2.13rem;
+  height: 1.31rem;
+  display: block;
+  display: none;
+}

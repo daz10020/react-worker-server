@@ -1,0 +1,68 @@
+.planList {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.planList .planBox {
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.planList .planBox .planImg {
+  flex-shrink: 0;
+  width: 5.97rem;
+}
+.planList .planBox .pland {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: #ff8000;
+  position: relative;
+}
+.planList .planBox .pland:before {
+  content: '';
+  width: 1px;
+  height: 7.85rem;
+  background: #E8E8E8;
+  position: absolute;
+  top: 2rem;
+  left: 0.75rem;
+}
+.planList .planBox .planCon {
+  width: calc(77.5vw);
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+.planList .planBox .planCon .planTit {
+  font-size: 1.62rem;
+  color: #191919;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.planList .planBox .planCon .planTxt {
+  font-size: 0.94rem;
+  color: #666;
+  word-break: break-all;
+  line-height: 1.5rem;
+}
+.planList .center {
+  text-align: center;
+}
+.planList .center .moreBtn {
+  font-size: 1.4rem;
+  color: #191919;
+  line-height: 1;
+  position: relative;
+  margin-bottom: 2rem;
+  display: inline-block;
+}
+.planList .center .moreBtn .rightImg {
+  position: absolute;
+  width: 1.5rem;
+  top: 0.3rem;
+  right: -2rem;
+}

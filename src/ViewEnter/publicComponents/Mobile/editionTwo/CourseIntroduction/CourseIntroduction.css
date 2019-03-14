@@ -1,0 +1,121 @@
+.micoapm_four {
+  background-color: #fff;
+}
+.micoapm_four > p {
+  font-size: 1.2rem;
+  color: #FF8000;
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+.micoapm_four > p span {
+  padding: 0 1.5rem;
+}
+.micoapm_four > p i {
+  width: 6.67rem;
+  height: 0.1rem;
+  background: #bfbfbf;
+  display: inline-block;
+  margin: 0.2rem 0;
+}
+.micoapm_four .four_title {
+  text-align: center;
+  padding: 3rem 1.5rem 0;
+}
+.micoapm_four .four_title p {
+  font-size: 1.67rem;
+  color: #000000;
+  line-height: 2.5rem;
+  font-weight: 600;
+}
+.micoapm_four .four_title p:nth-child(2) {
+  margin-bottom: 1rem;
+}
+.micoapm_four .four_title span {
+  font-size: 1.08rem;
+  color: #333;
+}
+.micoapm_four .four_con ul {
+  overflow: hidden;
+}
+.micoapm_four .four_con ul li {
+  float: left;
+  width: 33%;
+  text-align: center;
+  margin-top: 2rem;
+}
+.micoapm_four .four_con ul li img {
+  width: 1.5rem;
+  height: 2rem;
+}
+.micoapm_four .four_con ul li p {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: #333333;
+}
+.micoapm_four .four_con ul li span {
+  font-size: 0.83rem;
+  color: #666666;
+}
+.micoapm_four .four_con ul li:nth-child(2) img,
+.micoapm_four .four_con ul li:nth-child(3) img,
+.micoapm_four .four_con ul li:nth-child(7) img,
+.micoapm_four .four_con ul li:nth-child(8) img,
+.micoapm_four .four_con ul li:nth-child(6) img {
+  width: 2rem;
+  height: 2rem;
+}
+.micoapm_four .four_con ul li:nth-child(4) img {
+  width: 2.5rem;
+  height: 1.5rem;
+}
+.micoapm_four .four_con ul li:nth-child(5) img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.micoapm_four .four_con ul li:nth-child(9) p {
+  padding-top: 1.5rem;
+}
+.micoapm_four .four_period {
+  width: 28.5rem;
+  height: 6rem;
+  background-color: #FF8000;
+  margin: 2rem auto 0;
+  overflow: hidden;
+}
+.micoapm_four .four_period div {
+  width: 49%;
+  float: left;
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+}
+.micoapm_four .four_period div p {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+}
+.micoapm_four .four_period div span {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-bottom: 1rem;
+}
+.micoapm_four .four_period i {
+  display: inline-block;
+  float: left;
+  width: 0.08rem;
+  height: 4.09rem;
+  background: #ffffff;
+  opacity: 0.5;
+  margin-top: 0.95rem;
+}
+.micoapm_four .four_learn_more {
+  width: 13rem;
+  height: 3rem;
+  background-color: #FF8000;
+  color: #fff;
+  text-align: center;
+  line-height: 3rem;
+  margin: 2rem auto 1.5rem;
+  border-radius: 1.5rem;
+}

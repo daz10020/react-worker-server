@@ -1,0 +1,19 @@
+.logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  transition: all 1s;
+}
+.logo .logoc {
+  position: absolute;
+  left: 72%;
+  top: 18%;
+  display: none;
+}
+.logo .logoc:hover {
+  display: block;
+}
+.logo .logom:hover + .logoc {
+  display: block;
+}

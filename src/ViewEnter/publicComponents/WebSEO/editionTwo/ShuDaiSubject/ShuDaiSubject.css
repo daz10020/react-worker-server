@@ -1,0 +1,107 @@
+.session_content {
+  width: 20rem;
+  margin: 0 auto;
+}
+.session_content ul {
+  margin: 0 auto;
+  overflow: hidden;
+}
+.session_content ul li {
+  width: 5rem;
+  height: 3.5rem;
+  float: left;
+  border: 1px solid #d7d7d7;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+.session_content ul li img {
+  display: block;
+  margin: 0 auto;
+  width: 0.58rem;
+  height: 0.7rem;
+  margin-top: 0.6rem;
+}
+.session_content ul li .session_name {
+  font-size: 0.4rem;
+  color: #4a4a4a;
+  margin-top: 0.4rem;
+}
+.session_content ul li span {
+  font-size: 0.33rem;
+}
+.session_content ul li .hoverImg {
+  display: none;
+}
+.session_content ul li:hover .session_name {
+  color: #FF8000;
+}
+.session_content ul li:hover .morenIng {
+  display: none;
+}
+.session_content ul li:hover .hoverImg {
+  display: block;
+}
+.session_content ul li:hover span {
+  color: #FF8000;
+}
+.session_content ul li:nth-child(2) img {
+  width: 0.7rem;
+  height: 0.7rem;
+}
+.session_content ul li:nth-child(3) img,
+.session_content ul li:nth-child(4) img {
+  width: 0.72rem;
+  height: 0.73rem;
+}
+.session_content ul li:nth-child(5) img {
+  width: 0.9rem;
+  height: 0.65rem;
+}
+.session_content ul li:nth-child(6) img {
+  width: 0.65rem;
+  height: 0.65rem;
+}
+.session_content ul li:nth-child(7) img {
+  width: 0.72rem;
+  height: 0.72rem;
+}
+.session_content ul li:nth-child(8) img {
+  width: 0.62rem;
+  height: 0.77rem;
+}
+.session_content ul li:nth-child(4n) {
+  border-right: none;
+}
+.session_content ul li:nth-child(1),
+.session_content ul li:nth-child(5) {
+  border-left: none;
+}
+.session_content ul li:nth-child(6),
+.session_content ul li:nth-child(7),
+.session_content ul li:nth-child(8),
+.session_content ul li:nth-child(5) {
+  border-bottom: none;
+}
+.session_content ul li:nth-child(1),
+.session_content ul li:nth-child(2),
+.session_content ul li:nth-child(3),
+.session_content ul li:nth-child(4) {
+  border-top: none;
+}
+.session_fouter {
+  margin: 1rem 0;
+  text-align: center;
+}
+.session_fouter p b {
+  width: 2.12rem;
+  height: 0.03rem;
+  background: #bfbfbf;
+  display: inline-block;
+  margin: 0.2rem 0 ;
+}
+.session_fouter p span {
+  font-size: 0.53rem;
+  color: #FF8000;
+  padding: 0 1.5rem;
+}

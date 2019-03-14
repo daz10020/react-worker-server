@@ -1,0 +1,77 @@
+.school_introduce {
+  text-align: center;
+}
+.school_introduce .sch_note {
+  font-size: 0.4rem;
+  color: #000;
+}
+.school_introduce .sch_mingxiao {
+  font-size: 0.4rem;
+}
+.school_introduce .sch_mingxiao span {
+  font-weight: 600;
+}
+.school_introduce .sch_schlist {
+  list-style: none;
+  overflow: hidden;
+  margin: 0 auto 0;
+  width: 19.42rem;
+  margin-top: 0.5rem;
+}
+.school_introduce .sch_schlist li {
+  cursor: pointer;
+  float: left;
+  width: 4.4rem;
+  margin-left: 0.4rem;
+  position: relative;
+}
+.school_introduce .sch_schlist li > div:nth-child(1) {
+  border: 1px solid #CCC;
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 0.2rem;
+  border-bottom: none;
+}
+.school_introduce .sch_schlist li > div:nth-child(1) > img {
+  margin: 0 auto;
+  width: 4rem;
+  height: 4rem;
+}
+.school_introduce .sch_schlist li > div:nth-child(2) {
+  background: #f5f5f5;
+  border-bottom-left-radius: 0.2rem;
+  border-bottom-right-radius: 0.2rem;
+  padding: 0.4rem 0;
+}
+.school_introduce .sch_schlist li > div:nth-child(2) h2 {
+  font-size: 0.4rem;
+  color: #000000;
+  line-height: 0.6rem;
+}
+.school_introduce .sch_schlist li > div:nth-child(2) span {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 0.27rem;
+  color: #fff;
+  background-color: rgba(13, 13, 13, 0.5);
+  line-height: 0.4rem;
+  border-top-left-radius: 0.2rem;
+  border-top-right-radius: 0.2rem;
+  width: 4.4rem;
+  height: 4rem;
+  padding: 1.3rem 0.4rem 0 0.4rem;
+}
+.school_introduce .sch_schlist li > div:nth-child(2) .schlist_leftss {
+  line-height: 1.4rem;
+}
+.school_introduce .sch_schlist li > div:nth-child(2) .schlist_left {
+  text-align: left;
+  padding-top: 1rem;
+}
+.school_introduce .sch_schlist li > div:nth-child(2) .schlist_lefts {
+  padding-top: 1.5rem;
+}
+.school_introduce .sch_schlist li:hover > div:nth-child(2) span {
+  display: inline-block;
+}

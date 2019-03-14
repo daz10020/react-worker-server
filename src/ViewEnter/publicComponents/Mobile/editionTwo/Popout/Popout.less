@@ -1,0 +1,91 @@
+.section_dialog {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .3);
+  z-index: 1000;
+  .section_dialog_box {
+    width: 80%;
+    position: fixed;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    background-color: #f2f2f2;
+    .dialong_top {
+      width: 100%;
+      background-color: #f2f2f2;
+      img {
+        width: 100%;
+      }
+    }
+    .dialong_content{
+      .dialong_input {
+        width: 90%;
+        margin: 1.5rem auto 0;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        align-items: center;
+        height: 3rem;
+        line-height: 3rem;
+        span {
+          width: 5.5rem;
+          font-size: 1rem;
+          color: #000;
+        }
+        div {
+          flex: 1;
+          height: 3rem;
+          .el-input {
+            height: 3rem;
+            .el-input__inner {
+              border: 1px solid #000;
+            }
+
+            .el-input__inner:focus {
+              border-color: #000;
+            }
+            .el-input__inner {
+              height: 2.33rem;
+            }
+          }
+        }
+      }
+      .dialong_input:first-child {
+        margin: 2rem auto 0;
+      }
+    }
+    .dialong_button {
+      background: #FF8000;
+      height: 2.5rem;
+      width: 10rem;
+      font-size: 1rem;
+      line-height: 2.5rem;
+      margin: 2rem auto 0;
+      color: #fff;
+      text-align: center;
+    }
+    .dialong_footer {
+      text-align: center;
+      color: #4a4a4a;
+      font-size: 1rem;
+      margin-top: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .dialong_close {
+      position: absolute;
+      top: 0.5rem;
+      right: 0.5rem;
+    }
+  }
+}
+
+
+
+
+
+
+

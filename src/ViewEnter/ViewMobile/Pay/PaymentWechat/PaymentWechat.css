@@ -1,0 +1,132 @@
+#nb_icon_wrap {
+  display: none!important;
+}
+.fail-wrap {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: PingFangSC-Regular;
+  background: #fbf9f7;
+  position: relative;
+}
+.fail-wrap .fail-header {
+  width: 100%;
+  height: 5rem;
+  text-align: center;
+  line-height: 5rem;
+  font-size: 1.33rem;
+  color: #ffffff;
+  background-image: url(tuan_bg.png);
+  background-size: 100% 100%;
+  background-position: center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.fail-wrap .fail-content {
+  padding: 1rem;
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  bottom: 0;
+}
+.fail-wrap .fail-content .fail-box {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 4rem 2rem;
+}
+.fail-wrap .fail-content .fail-box p {
+  font-size: 1.17rem;
+  color: #666666;
+  line-height: 1.8rem;
+  margin-top: .4rem;
+}
+.fail-wrap .fail-content .fail-box p span {
+  color: #FF8000;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+}
+.fail-wrap .fail-content .fail-box div {
+  margin-top: 5rem;
+  text-align: center;
+}
+.fail-wrap .fail-content .fail-box div .payImitate {
+  width: 42%;
+  height: 3.33rem;
+  line-height: 3.33rem;
+  border: 0.1rem solid #FF8000;
+  color: #FF8000;
+  border-radius: 1.83rem;
+  background: #fff;
+  margin-right: 5%;
+  display: inline-block;
+}
+.fail-wrap .fail-content .fail-box div .search-pay {
+  width: 42%;
+  height: 3.33rem;
+  line-height: 3.33rem;
+  background: linear-gradient(90deg, #ff8000, #ff6425);
+  box-shadow: 0rem 0.33rem 0.83rem 0rem rgba(255, 128, 0, 0.6);
+  border-radius: 1.83rem;
+  border: none;
+  font-size: 1.33rem;
+  color: #ffffff;
+  display: inline-block;
+}
+.fail-wrap .dialog-mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 7;
+  display: none;
+}
+.fail-wrap .dialog-fail {
+  width: 80%;
+  position: fixed;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  text-align: center;
+  padding: 1rem 0 2.5rem;
+  border-radius: 0.33rem;
+  z-index: 8;
+}
+.fail-wrap .dialog-fail .fail-box h2 {
+  font-size: 1.6rem;
+  color: #191919;
+  margin: 1.5rem 0 1rem 0;
+}
+.fail-wrap .dialog-fail .fail-box p {
+  font-size: 1.17rem;
+  color: #666666;
+  line-height: 1.5rem;
+  padding: 0 2rem;
+  margin: 1.5rem 0 2.5rem 0;
+}
+.fail-wrap .dialog-fail .fail-box .payImitate {
+  width: 42%;
+  height: 3.33rem;
+  line-height: 3.33rem;
+  border: 0.1rem solid #FF8000;
+  color: #FF8000;
+  border-radius: 1.83rem;
+  background: #fff;
+  margin-right: 5%;
+  display: inline-block;
+}
+.fail-wrap .dialog-fail .fail-box .search-pay {
+  width: 42%;
+  height: 3.33rem;
+  background: linear-gradient(90deg, #ff8000, #ff6425);
+  box-shadow: 0rem 0.33rem 0.83rem 0rem rgba(255, 128, 0, 0.6);
+  border-radius: 1.83rem;
+  border: none;
+  font-size: 1.33rem;
+  color: #ffffff;
+}

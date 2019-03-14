@@ -1,0 +1,29 @@
+.Title{
+    .title{
+        line-height: 1.1;
+        span{
+            color:#191919;
+            font-size:0.67rem;
+            color:rgba(25,25,25,1);
+            font-weight:bold;
+        }
+        .bold{
+            position: relative;
+            z-index: 1;
+            font-size:1.33rem;
+            font-weight:bold;
+            color:rgba(25,25,25,1);
+            &:before{
+                content:"";
+                width:100%;
+                position: absolute;
+                bottom:0;
+                left:0;
+                height:0.38rem;
+                background:#FF8000;
+                z-index:-1;
+            }
+        }
+       
+    }
+}

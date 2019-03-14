@@ -1,0 +1,85 @@
+.school_introduce{
+  text-align: center;
+  .sch_note {
+    font-size: 0.4rem;
+    color: #000;
+  }
+  .sch_mingxiao{
+    font-size:0.4rem;
+    span{
+      font-weight: 600;
+    }
+  }
+
+  .sch_schlist{
+    list-style: none;
+    overflow: hidden;
+    margin: 0 auto 0;
+    width: 19.42rem;
+    margin-top: 0.5rem;
+    li{
+      cursor: pointer;
+      float: left;
+      width: 4.4rem;
+      margin-left: 0.4rem;
+      position: relative;
+      >div:nth-child(1){
+        border: 1px solid #CCC;
+        border-top-left-radius: 0.2rem;
+        border-top-right-radius: 0.2rem;
+        border-bottom: none;
+        >img{
+          margin: 0 auto;
+          width: 4rem;
+          height: 4rem;
+        }
+      }
+      >div:nth-child(2){
+        background:rgba(245,245,245,1);
+        border-bottom-left-radius: 0.2rem;
+        border-bottom-right-radius: 0.2rem;
+        padding: 0.4rem 0;
+        h2{
+          font-size:0.4rem;
+          color:rgba(0,0,0,1);
+          line-height:0.6rem;
+        }
+        span{
+          display: none;
+          position: absolute;
+          top: 0;
+          left: 0;
+          font-size:0.27rem;
+          color:#fff;
+          background-color: rgba(13, 13, 13, 0.5);
+          line-height:0.4rem;
+          border-top-left-radius: 0.2rem;
+          border-top-right-radius: 0.2rem;
+          width: 4.4rem;
+          height: 4rem;
+          padding: 1.3rem 0.4rem 0 0.4rem; 
+        }
+        .schlist_leftss{
+          line-height: 1.4rem;
+        }
+        .schlist_left{
+          text-align: left;
+          padding-top: 1rem;
+        }
+        .schlist_lefts{
+          padding-top: 1.5rem;
+        }
+      }
+    }
+    li:hover{
+        >div:nth-child(2){
+          span{
+          display: inline-block;
+          }
+        }
+    } 
+  }
+}
+
+    
+   

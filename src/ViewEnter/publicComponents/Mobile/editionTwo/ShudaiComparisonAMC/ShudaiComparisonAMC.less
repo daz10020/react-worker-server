@@ -1,0 +1,198 @@
+.comparison{
+    background:rgba(245,245,245,1);
+    padding-top: 4rem;
+    img{
+      width: 17rem;
+      height: 9rem;
+      display: block;
+      margin: 0 auto;
+    }
+    h2{
+      text-align: center;
+      font-weight: 600;
+      font-size:1.88rem;
+      color: #000;
+      margin:1rem 0 3rem 0;
+    }
+    .comparison_footer{
+      width: 100%;
+      height: 3rem;
+      line-height: 3rem;
+      text-align: center;
+      color: #666;
+      font-size: 0.85rem;
+    }
+    .comparsion_box{
+      width: 100%;
+      position: relative;
+      #triangle-downs{
+        width: 0;
+        height: 0;
+        border-left: 1rem solid transparent;
+        border-right: 1rem solid transparent;
+        border-bottom: 2rem solid #fff;
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+        transform: translate(-50%);
+        top: -1.67rem;
+      }
+      .comparsion_con{
+        padding-top: 1rem;
+        background-color: #fff;
+        position: relative;
+        height: 52rem;
+        overflow: hidden;
+        >ul{
+          float: left;
+          margin: 0;
+          border-right: 1px solid #E3E3E3;
+          li{
+            margin-bottom: 2rem;
+          }
+          li:nth-child(1){
+            margin-bottom: 1rem;
+          }
+          li:nth-child(2){
+            height: 3rem;
+          }
+          li:nth-child(3){
+            height: 4rem;
+          }
+          li:nth-child(4){
+            height: 3rem;
+          }
+          li:nth-child(5){
+            height: 6rem;
+          }
+          li:nth-child(6){
+            height: 7rem;
+          }
+          li:nth-child(7){
+            height: 5rem;
+          }
+          li:nth-child(8){
+            height: 3rem;
+          }
+        }
+        #one{
+          width: 6rem;
+          position: absolute;
+          background-color: #fff;
+          li{
+            color: #F3910D;
+            text-align: center;
+            font-size: 0.94rem;
+          }
+          li:nth-child(1){
+            width: 100%;
+            height:0.34rem; 
+            background-color: #F3910D;
+          }
+          li:nth-child(6){
+            line-height: 7rem;
+          }
+          li:nth-child(3){
+            line-height: 4rem;
+          }
+          li:nth-child(4){
+            line-height: 3rem;
+          }
+          li:nth-child(5){
+            padding-top: 1rem;
+          }
+          li:nth-child(7){
+            padding-top: 0.8rem;
+          }
+        }
+        #two{
+            width: 14rem;
+            position: absolute;
+            left: 6rem;
+            // z-index: 999;
+            background-color: #fff;
+            li{
+              font-size: 0.94rem;
+              padding-left: 1rem;
+              color: #333;
+              h3{
+                font-size:1.28rem;
+                color:#FF8000;
+                line-height:2.13rem;
+                font-weight: 600;
+                text-align: center;
+              }
+            }
+            li:nth-child(1){
+              width: 100%;
+              height: 0.34rem;
+              background-color: #FF8000;
+            }
+          }
+        >div{
+          left:20rem; 
+          z-index: 1;
+          position: absolute;
+          >ul{
+            width: 12rem;
+            li{
+              font-size: 0.85rem;
+              padding-left: 1rem;
+              color: #666666;
+              margin-bottom: 2rem;
+              h3{
+                font-size:1.28rem;
+                display: inline-block;
+                color:#666;
+                line-height:2.13rem;
+                font-weight: 600;
+              }
+              h3:nth-child(2){
+                margin-left: 2rem;
+              }
+              .active{
+                background-color: #666666;
+                color: #fff
+              }
+            }
+            >li:nth-child(1){
+              width: 100%;
+              height: 0.34rem;
+              background-color: #aaa;
+              margin-bottom: 1rem;
+            }
+            >li:nth-child(2){
+              height: 3rem;
+            }
+            #slideSon{
+              >ul{
+                display:none;
+                li:nth-child(1){
+                  height: 4rem;
+                }
+                li:nth-child(2){
+                  height: 3rem;
+                }
+                li:nth-child(3){
+                  height: 6rem;
+                }
+                li:nth-child(4){
+                  height: 7rem;
+                }
+                li:nth-child(5){
+                  height: 5rem;
+                }
+                li:nth-child(6){
+                  height: 3rem;
+                } 
+              }
+              .show{
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+  }

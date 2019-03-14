@@ -1,0 +1,133 @@
+.courseAdvantage{
+    width:100%;
+    position: relative;
+    .list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right:1.35rem;
+        width: 7.02rem;
+        height:10.75rem;
+        li{
+            padding: 0.3rem 0;
+            height: 1.58rem;
+            line-height: 1.58rem;
+            margin-bottom: 0.4rem;
+            -webkit-box-sizing: initial;
+            box-sizing: initial;
+            cursor: pointer;
+            width: 100%;
+            border-radius:0.05rem;
+            transition:all .3s ease;
+            i{
+                width: 1.75rem;
+                height: 1.58rem;
+                margin-right: 0.63rem;
+                display: inline-block;
+                margin-left: 0.6rem;
+                position: relative;
+                top: -0.1rem;
+                img{
+                    width:100%
+                }
+            }
+            p{
+                font-size:0.43rem;
+                display: inline-block;
+                color:#191919;
+                transition:all .3s ease;
+            }
+        }
+        .active{
+            background: rgba(255, 128, 0, 0.05);
+        }
+    }
+    .infowrap{
+        width: 10.75rem;
+        height: 10.75rem;
+        position: absolute;
+        right: 0;
+        top: 0;
+        .bg{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 10.75rem;
+            height: 10.75rem;
+            background: url(/static/media/circle.2e687bd1.png) no-repeat center / contain;
+            -webkit-animation: rotate 10s linear infinite;
+            animation: rotate 10s linear infinite;
+            z-index:2;
+        }
+        .singlecont{
+            position: absolute;
+            width: 6rem;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            text-align: left;
+            font-size: 0.46rem;
+            color: #ff8000;
+            line-height: 0.62rem;
+            z-index:10;
+        }
+        .info{
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            z-index: 10;
+            .cont{
+                position: relative;
+                z-index:3;
+                h1{
+                    font-size: 0.65rem;
+                    color: #191919;
+                    text-align: center;
+                    line-height: 1;
+                    padding-bottom: 0.5rem;
+                    font-weight: bold;
+                }
+                .contlist{
+                    li{
+                        font-size:0.46rem;
+                        color:#ff8000;
+                        line-height: 1.1;
+                        padding:0 1.6rem 0 1.97rem;
+                        position: relative;
+                        &:before{
+                            content: "";
+                            width: 0.15rem;
+                            height: 0.15rem;
+                            border-radius: 50%;
+                            overflow: hidden;
+                            position: absolute;
+                            top: 0.15rem;
+                            left: 1.5rem;
+                            background: #ff8000;
+                        }
+                    }
+                }
+                .viplist{
+                    margin: 0.5rem auto 0;
+                    width: 8.55rem;
+                    position: relative;
+                    padding: 0.3rem 0.9rem;
+                    li{
+                        font-size: 0.42rem;
+                        color: #191919;
+                    }
+                }
+            }
+            
+        }
+    
+    }
+    @keyframes rotate {
+        from{transform: rotate(0deg)}
+        to{transform: rotate(360deg)}
+    }
+}

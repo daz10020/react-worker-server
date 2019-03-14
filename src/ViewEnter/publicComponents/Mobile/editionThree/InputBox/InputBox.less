@@ -1,0 +1,76 @@
+.InputBox{
+    @orange: #ff8000;
+    @orange2: #FF6425;
+    @black:#191919;
+    @grayword:#666666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:1rem 2rem 0;
+    .mainbtn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:100%;
+        height: 3rem;
+        border-radius: 1.7rem;
+        color: #fff;
+        font-size: 1.37rem;
+        background: linear-gradient(to right, @orange, @orange2);
+        -webkit-box-shadow: 0 0.4rem 1rem @orange;
+        -moz-box-shadow: 0 0.4rem 1rem @orange;
+        box-shadow: 0 0.4rem 1rem @orange;
+    }
+    .title{
+        color:@black;
+        line-height:1;
+        text-align:center;
+        h1,h2,h3{
+            margin:0;
+            margin-top:0.5rem;
+            font-family: 'mainfont';
+        }
+        h1{
+            font-size:1.8rem;
+            font-weight:bold;
+        }
+        h2{
+            font-size:1.45rem;
+        }
+        h3{
+            font-size:0.94rem;
+            color:@orange;
+        }
+    }
+    .inputcontainer{
+        position: relative;
+        width:100%;
+        margin:1rem 0;
+        input{
+            border:1px solid #e4e4e4;
+            display: block;
+            width:100%;
+            height: 3.16rem;
+            line-height:3.16rem;
+            text-indent:3rem;
+            background:rgba(255,255,255,1) url(./image/phone.png) no-repeat 1rem center/0.7rem;
+            border-radius:0.17rem;
+            font-size:1.02rem;
+        }
+        &:before{
+            content:"";
+            width:1px;
+            height:0.94rem;
+            position: absolute;
+            top:50%;
+            margin-top:-0.47rem;
+            left:2.5rem;
+            background: #ccc;
+        }
+    }
+    
+    .btn{
+        .mainbtn();
+    }
+}

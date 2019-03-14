@@ -1,0 +1,37 @@
+.KeyTitle{
+    .title{
+        margin-top:1.5rem;
+        text-align:center;
+        line-height: 1.1;
+        span{
+            font-size:1.19rem;
+            color:#191919;
+            font-weight:bold;
+            font-family: 'mainfont';
+        }
+        .bold{
+            font-size: 1.9rem;
+            position: relative;
+            z-index: 1;
+            margin:0 0.1rem;
+            font-family: 'mainfont';
+            &:before{
+                content:"";
+                width:100%;
+                position: absolute;
+                bottom:0.15rem;
+                left:0;
+                height:0.5rem;
+                background:#FF8000;
+                z-index:-1;
+            }
+        }
+       
+    }
+    .subtitle{
+        color:#666666;
+        font-size:1.02rem;
+        text-align:center;
+        margin-top:0.5rem;
+    }
+}

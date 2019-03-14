@@ -1,0 +1,133 @@
+.courseAdvantage {
+  width: 100%;
+  position: relative;
+}
+.courseAdvantage .list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.35rem;
+  width: 7.02rem;
+  height: 10.75rem;
+}
+.courseAdvantage .list li {
+  padding: 0.3rem 0;
+  height: 1.58rem;
+  line-height: 1.58rem;
+  margin-bottom: 0.4rem;
+  -webkit-box-sizing: initial;
+  box-sizing: initial;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 0.05rem;
+  transition: all .3s ease;
+}
+.courseAdvantage .list li i {
+  width: 1.75rem;
+  height: 1.58rem;
+  margin-right: 0.63rem;
+  display: inline-block;
+  margin-left: 0.6rem;
+  position: relative;
+  top: -0.1rem;
+}
+.courseAdvantage .list li i img {
+  width: 100%;
+}
+.courseAdvantage .list li p {
+  font-size: 0.43rem;
+  display: inline-block;
+  color: #191919;
+  transition: all .3s ease;
+}
+.courseAdvantage .list .active {
+  background: rgba(255, 128, 0, 0.05);
+}
+.courseAdvantage .infowrap {
+  width: 10.75rem;
+  height: 10.75rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.courseAdvantage .infowrap .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10.75rem;
+  height: 10.75rem;
+  background: url(/static/media/circle.2e687bd1.png) no-repeat center / contain;
+  -webkit-animation: rotate 10s linear infinite;
+  animation: rotate 10s linear infinite;
+  z-index: 2;
+}
+.courseAdvantage .infowrap .singlecont {
+  position: absolute;
+  width: 6rem;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: left;
+  font-size: 0.46rem;
+  color: #ff8000;
+  line-height: 0.62rem;
+  z-index: 10;
+}
+.courseAdvantage .infowrap .info {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+.courseAdvantage .infowrap .info .cont {
+  position: relative;
+  z-index: 3;
+}
+.courseAdvantage .infowrap .info .cont h1 {
+  font-size: 0.65rem;
+  color: #191919;
+  text-align: center;
+  line-height: 1;
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+}
+.courseAdvantage .infowrap .info .cont .contlist li {
+  font-size: 0.46rem;
+  color: #ff8000;
+  line-height: 1.1;
+  padding: 0 1.6rem 0 1.97rem;
+  position: relative;
+}
+.courseAdvantage .infowrap .info .cont .contlist li:before {
+  content: "";
+  width: 0.15rem;
+  height: 0.15rem;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 0.15rem;
+  left: 1.5rem;
+  background: #ff8000;
+}
+.courseAdvantage .infowrap .info .cont .viplist {
+  margin: 0.5rem auto 0;
+  width: 8.55rem;
+  position: relative;
+  padding: 0.3rem 0.9rem;
+}
+.courseAdvantage .infowrap .info .cont .viplist li {
+  font-size: 0.42rem;
+  color: #191919;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

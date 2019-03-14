@@ -1,0 +1,85 @@
+.University .swiper-box .lay02-box {
+  width: 3rem;
+  height: 5rem;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+.University .swiper-box .lay02-box img {
+  height: 100%;
+  filter: blur(2px);
+}
+.University .swiper-box .lay02-box .lay02-mask {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  line-height: 5rem;
+  font-size: 0.4rem;
+  font-weight: 400;
+  color: #ffffff;
+  display: block;
+}
+.University .swiper-box .lay02-box .lay02-text {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  filter: blur(2px);
+}
+.University .swiper-box .lay02-box .lay02-text h2 {
+  font-size: 0.55rem;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.38rem;
+}
+.University .swiper-box .swiperActive {
+  width: 7rem;
+  height: 5rem;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+.University .swiper-box .swiperActive img {
+  width: 100%;
+  height: 100%;
+}
+.University .swiper-box .swiperActive .lay02-mask {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.University .swiper-box .swiperActive .lay02-text {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  z-index: 3;
+  text-align: left;
+  padding: 1rem;
+}
+.University .swiper-box .swiperActive .lay02-text h2 {
+  font-size: 0.55rem;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 0.2rem;
+}
+.University .swiper-box .swiperActive .lay02-text p {
+  font-size: 0.33rem;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 0.45rem;
+}

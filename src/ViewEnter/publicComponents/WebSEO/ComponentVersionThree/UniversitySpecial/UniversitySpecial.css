@@ -1,0 +1,107 @@
+.UniversitySpecial .swiper-box .lay02-box {
+  width: 3rem;
+  height: 5rem;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+.UniversitySpecial .swiper-box .lay02-box img {
+  height: 100%;
+  filter: blur(2px);
+}
+.UniversitySpecial .swiper-box .lay02-box .lay02-mask {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  line-height: 5rem;
+  font-size: 0.4rem;
+  color: #ffffff;
+}
+.UniversitySpecial .swiper-box .lay02-box .lay02-text {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  filter: blur(2px);
+}
+.UniversitySpecial .swiper-box .lay02-box .lay02-text h2 {
+  font-size: 0.55rem;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.38rem;
+}
+.UniversitySpecial .swiper-box .swiperActive {
+  width: 7rem;
+  height: 5rem;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+.UniversitySpecial .swiper-box .swiperActive img {
+  width: 100%;
+  height: 100%;
+}
+.UniversitySpecial .swiper-box .swiperActive .lay02-mask {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.UniversitySpecial .swiper-box .swiperActive .lay02-text {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  z-index: 3;
+  text-align: left;
+}
+.UniversitySpecial .swiper-box .swiperActive .lay02-text .lay02-text-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  line-height: 5rem;
+  position: relative;
+  padding: 1rem;
+}
+.UniversitySpecial .swiper-box .swiperActive .lay02-text .lay02-text-inner h2 {
+  font-size: 0.55rem;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 0.2rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.UniversitySpecial .swiper-box .swiperActive .lay02-text .lay02-text-inner .achieve {
+  position: absolute;
+  top: 0;
+  right: 0.1rem;
+  width: 1.73rem;
+  height: 2.32rem;
+  background: #ff8000;
+  opacity: 0.8;
+  padding-top: 0.7rem;
+}
+.UniversitySpecial .swiper-box .swiperActive .lay02-text .lay02-text-inner .achieve p {
+  font-size: 0.28rem;
+  color: #ffffff;
+  line-height: 0.6rem;
+}
+.UniversitySpecial .swiper-box .swiperActive .lay02-text .lay02-text-inner .achieve p + p {
+  font-size: 0.4rem;
+  font-weight: bold;
+}

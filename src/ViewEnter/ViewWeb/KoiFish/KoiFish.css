@@ -1,0 +1,52 @@
+.KoiFish {
+  background: #f5f5f5;
+}
+.KoiFish .banner img {
+  width: 100%;
+}
+.KoiFish .content .code {
+  text-align: center;
+  margin-top: 0.93rem;
+}
+.KoiFish .content .code img {
+  width: 5.03rem;
+}
+.KoiFish .content .code p {
+  display: inline-block;
+  color: #191919;
+  font-size: 0.47rem;
+  padding-left: 0.6rem;
+  background: url(images/scan.png) no-repeat left center / 0.45rem;
+}
+.KoiFish .content .signIn {
+  margin-top: 1.3rem;
+}
+.KoiFish .content .signIn p {
+  color: #191919;
+  font-size: 0.6rem;
+  line-height: 1;
+  text-align: center;
+}
+.KoiFish .content .signIn p span {
+  color: #FF5100;
+  margin: 0 0.1rem;
+}
+.KoiFish .content .signIn ul {
+  font-size: 0;
+  padding-bottom: 2rem;
+  padding: 0.3rem;
+  margin: 0 auto;
+  width: 10rem;
+}
+.KoiFish .content .signIn ul li {
+  width: 1.07rem;
+  height: 1.07rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0.4rem 0.35rem;
+  display: inline-block;
+  border: 2px solid #fff;
+}
+.KoiFish .content .signIn ul li img {
+  width: 100%;
+}

@@ -1,0 +1,88 @@
+{
+  "Mentor": {
+    "name": "备考活动",
+    "activitySoure": 1,
+    "activityId": 4
+  },
+  "PageIB": {
+    "name": "IB课程",
+    "activitySoure": 2,
+    "activityId": 5
+  },
+  "Preferential": {
+    "name": "暑期特惠",
+    "activitySoure": 3,
+    "activityId": 6
+  },
+  "Describe": {
+    "name": "官网公司简介",
+    "activitySoure": 4,
+    "activityId": 7
+  },
+  "Vacation": {
+    "name": "移动端-暑期优惠",
+    "activitySoure": 5,
+    "activityId": 8
+  },
+  "Describes": {
+    "name": "百度-公司简介",
+    "activitySoure": 6,
+    "activityId": 9
+  },
+  "Alevel": {
+    "name": "A-Level",
+    "activitySoure": 7,
+    "activityId": 10
+  },
+  "PageIG": {
+    "name": "IG课程",
+    "activitySoure": 8,
+    "activityId": 11
+  },
+  "MicoAP": {
+    "name": "AP美高",
+    "activitySoure": 9,
+    "activityId": 12
+  },
+  "MicoAMC": {
+    "name": "AMC",
+    "activitySoure": 10,
+    "activityId": 13
+  },
+  "Homes": {
+    "name": "HOMES",
+    "activitySoure": 11,
+    "activityId": 14
+  },
+  "USAD":{
+    "name": "USAD",
+    "activitySoure": 12,
+    "activityId": 15
+  },
+  "Speak": {
+    "name": "Speak",
+    "activitySoure": 13,
+    "activityId": 16
+  },
+  "SignIn": {
+    "name": "SignIn",
+    "activitySoure": 14,
+    "activityId": 17
+  },
+  "ToeflJunior": {
+    "name": "ToeflJunior",
+    "activitySoure": 15,
+    "activityId": 18
+  },
+  "Magazine": {
+    "name": "Magazine",
+    "activitySoure": 16,
+    "activityId": 19
+  },
+  "OverlordClass": {
+    "name": "OverlordClass",
+    "activitySoure": 17,
+    "activityId": 8889 
+  }
+
+}

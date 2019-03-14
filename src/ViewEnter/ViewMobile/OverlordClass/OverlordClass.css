@@ -1,0 +1,528 @@
+.OverlordClass {
+  background: url(images/bg.png) no-repeat center top / 100% 100%;
+}
+.OverlordClass .randomEntry {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  margin-top: -5rem;
+  z-index: 10;
+}
+.OverlordClass .randomEntry img {
+  width: 8rem;
+}
+.OverlordClass .maintitle {
+  text-align: center;
+}
+.OverlordClass .maintitle p {
+  font-size: 1.71rem;
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+}
+.OverlordClass .maintitle p:before,
+.OverlordClass .maintitle p:after {
+  content: '';
+  width: 3.24rem;
+  height: 0.17rem;
+  position: absolute;
+  top: 50%;
+}
+.OverlordClass .maintitle p:before {
+  left: -4.24rem;
+  background: url(images/lineleft.png) no-repeat center;
+}
+.OverlordClass .maintitle p:after {
+  left: calc(101%);
+  background: url(images/lineright.png) no-repeat center;
+}
+.OverlordClass .introBlock {
+  padding-top: 16.21rem;
+}
+.OverlordClass .introBlock ul {
+  margin: 0 0.47rem;
+  height: 6.74rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(images/introBlockbg.png) no-repeat center top / 100%;
+}
+.OverlordClass .introBlock ul li {
+  text-align: center;
+  width: 33%;
+}
+.OverlordClass .introBlock ul li p {
+  color: #fff;
+  font-weight: bold;
+  line-height: 1;
+}
+.OverlordClass .introBlock ul li p:first-child {
+  font-size: 0.94rem;
+}
+.OverlordClass .introBlock ul li p:last-child {
+  font-size: 1.28rem;
+  margin-top: 0.47rem;
+}
+.OverlordClass .activity {
+  margin-top: 2.6rem;
+}
+.OverlordClass .activity ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4.82rem;
+}
+.OverlordClass .activity ul li {
+  width: 8.93rem;
+  position: relative;
+  margin-left: 1.9rem;
+}
+.OverlordClass .activity ul li:first-child {
+  margin-left: 0;
+}
+.OverlordClass .activity ul li:first-child:before {
+  display: none;
+}
+.OverlordClass .activity ul li:before {
+  content: '';
+  width: 0.6rem;
+  height: 1.19rem;
+  background: url(images/arrow.png) no-repeat center / 100%;
+  position: absolute;
+  left: -1.2rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.OverlordClass .activity ul li p {
+  color: #8B572A;
+  font-size: 0.94rem;
+  line-height: 1;
+  font-weight: bold;
+  text-align: center;
+}
+.OverlordClass .activity ul li .top {
+  position: absolute;
+  top: -3.32rem;
+  left: 50%;
+  margin-left: -3.2rem;
+  width: 6.4rem;
+  height: 6.4rem;
+  background: url(images/activitybg.png) no-repeat center / 80%;
+}
+.OverlordClass .activity ul li .top p:first-child {
+  margin-top: 1.41rem;
+}
+.OverlordClass .activity ul li .top p:last-child {
+  font-size: 2.05rem;
+  margin-top: 0.13rem;
+}
+.OverlordClass .activity ul li .content {
+  height: 6.81rem;
+  background: #fff;
+  box-shadow: 0rem 0.13rem 0rem 0rem #d23952;
+  border-radius: 0.68rem;
+}
+.OverlordClass .activity ul li .content p {
+  padding-top: 4.14rem;
+}
+.OverlordClass .activity .btn {
+  width: 12.8rem;
+  height: 2.56rem;
+  line-height: 2.56rem;
+  background: linear-gradient(180deg, #ffe892 0%, #fea300 100%);
+  border-radius: 1.28rem;
+  color: #ef3c42;
+  font-size: 1.19rem;
+  margin: 2.69rem auto 0;
+  font-weight: bold;
+  text-align: center;
+}
+.OverlordClass .countDown {
+  margin: 1.62rem 0.64rem 0;
+}
+.OverlordClass .countDown .subtitle {
+  font-size: 0.94rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 0.73rem;
+  text-align: center;
+}
+.OverlordClass .countDown .countBox {
+  margin-top: 1.58rem;
+  height: 8.567rem;
+  background: url(images/countboxbg.png) no-repeat center / 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.3rem 1.41rem 1.19rem;
+}
+.OverlordClass .countDown .countBox p {
+  width: 20%;
+  text-align: center;
+  height: 3.07rem;
+  font-size: 2.56rem;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 1.3;
+  text-shadow: 0px 0px 0px rgba(255, 128, 0, 0.1);
+  background: linear-gradient(360deg, #ef3c42 0%, #ff6425 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 1rem;
+}
+.OverlordClass .countDown .countBox p.finish {
+  width: 100%;
+  font-size: 2.2rem;
+  line-height: 1.5;
+  margin-right: 0;
+}
+.OverlordClass .countDown .countBox p span {
+  font-size: 0.94rem;
+  float: right;
+  margin-top: 1rem;
+}
+.OverlordClass .signInActivity {
+  margin-top: 2.52rem;
+}
+.OverlordClass .signInActivity .maintitle p {
+  font-size: 1.19rem;
+  color: #fff;
+}
+.OverlordClass .signInActivity .maintitle p span {
+  color: #fde671;
+  font-size: 2rem;
+  top: 0.1rem;
+  position: relative;
+}
+.OverlordClass .signInActivity .signlist {
+  width: 30.72rem;
+  height: 11.61rem;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 0.68rem;
+  margin: 1.41rem auto 0;
+  overflow: hidden;
+}
+.OverlordClass .signInActivity .signlist .transition {
+  transition: all linear 1s;
+}
+.OverlordClass .signInActivity .signlist ul {
+  padding: 0.34rem 1.37rem;
+}
+.OverlordClass .signInActivity .signlist ul:first-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.OverlordClass .signInActivity .signlist ul:last-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+.OverlordClass .signInActivity .signlist ul li {
+  height: 2.18rem;
+  line-height: 2.18rem;
+  display: flex;
+  justify-content: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.OverlordClass .signInActivity .signlist ul li p {
+  font-size: 0.94rem;
+  text-indent: 0.2rem;
+  font-weight: 500;
+  color: #fff;
+}
+.OverlordClass .signInActivity .signlist ul li p:nth-child(1) {
+  width: 30%;
+}
+.OverlordClass .signInActivity .signlist ul li p:nth-child(2) {
+  width: 30%;
+}
+.OverlordClass .signInActivity .signlist ul li p:nth-child(3) {
+  width: 40%;
+}
+.OverlordClass .signInActivity .signlist ul li p:nth-child(3) span {
+  color: #FFE247;
+  margin-right: 0.5rem;
+}
+.OverlordClass .course {
+  margin-top: 2.56rem;
+}
+.OverlordClass .course ul {
+  padding: 0.5rem 0.85rem 0;
+  overflow: hidden;
+}
+.OverlordClass .course ul li {
+  float: left;
+  border-radius: 0.68rem;
+  width: 48%;
+  margin-top: 1.28rem;
+  overflow: hidden;
+}
+.OverlordClass .course ul li:nth-child(1) {
+  margin-right: 4%;
+}
+.OverlordClass .course ul li:nth-child(1) .header {
+  background: linear-gradient(90deg, #ec21ff 0%, #a525ff 100%);
+}
+.OverlordClass .course ul li:nth-child(2) .header {
+  background: linear-gradient(90deg, #f5515f 0%, #ed2b48 100%);
+}
+.OverlordClass .course ul li:nth-child(3) {
+  margin-right: 4%;
+}
+.OverlordClass .course ul li:nth-child(3) .header {
+  background: linear-gradient(90deg, #ffaf00 0%, #ff6c00 100%);
+}
+.OverlordClass .course ul li:nth-child(4) .header {
+  background: linear-gradient(90deg, #ffea00 0%, #ffb700 100%);
+}
+.OverlordClass .course ul li:nth-child(5) {
+  margin-right: 4%;
+}
+.OverlordClass .course ul li:nth-child(5) .header {
+  background: linear-gradient(90deg, #12ebfe 0%, #2c98fb 100%);
+}
+.OverlordClass .course ul li:nth-child(6) .header {
+  background: linear-gradient(90deg, #b4ec51 0%, #12e9fe 100%);
+}
+.OverlordClass .course ul li .header {
+  height: 4.03rem;
+  line-height: 4.03rem;
+  text-align: center;
+  font-size: 1.54rem;
+  color: #fff;
+  font-weight: bold;
+}
+.OverlordClass .course ul li .header span {
+  font-size: 1.2rem;
+  margin-left: 0.3rem;
+}
+.OverlordClass .course ul li .cont {
+  background: #fff;
+  height: 13.74rem;
+  text-align: center;
+}
+.OverlordClass .course ul li .cont img {
+  height: 5.5rem;
+  margin-top: 1.62rem;
+  margin-bottom: 1rem;
+}
+.OverlordClass .course ul li .cont p {
+  font-size: 0.94rem;
+  color: #666;
+  line-height: 1.8;
+}
+.OverlordClass .win ul {
+  padding: 0 0.64rem;
+}
+.OverlordClass .win ul li {
+  margin-top: 1.5rem;
+  position: relative;
+  height: 7.29rem;
+  background: url(images/winbg.png) no-repeat center / 100%;
+}
+.OverlordClass .win ul li .header span {
+  position: absolute;
+  font-weight: bold;
+}
+.OverlordClass .win ul li .header span:first-child {
+  font-size: 1.54rem;
+  color: #fff;
+  left: 2.2rem;
+  top: 0.5rem;
+}
+.OverlordClass .win ul li .header span:last-child {
+  font-size: 1.02rem;
+  color: #EF3C42;
+  left: 5.61rem;
+  top: 1.1rem;
+}
+.OverlordClass .win ul li .cont {
+  font-size: 0.98rem;
+  color: #8B572A;
+  padding-top: 4.95rem;
+  text-indent: 1.28rem;
+}
+.OverlordClass .win ul li .rightImg {
+  position: absolute;
+  right: 0.1rem;
+  top: 0.9rem;
+}
+.OverlordClass .win ul li .rightImg img {
+  width: 5.97rem;
+}
+.OverlordClass .explain {
+  margin-top: 2.47rem;
+}
+.OverlordClass .explain .content {
+  padding: 1.49rem 1.79rem 0.49rem;
+  background: rgba(0, 0, 0, 0.2);
+  margin: 1.71rem 0.64rem 0;
+  border-radius: 0.68rem;
+}
+.OverlordClass .explain .content h1 {
+  font-size: 1.19rem;
+  color: #ffe247;
+}
+.OverlordClass .explain .content ul li {
+  font-size: 0.94rem;
+  color: #fff;
+  line-height: 2;
+}
+.OverlordClass .footer {
+  margin-top: 2.35rem;
+  height: 10.63rem;
+  background: rgba(0, 0, 0, 0.7);
+}
+.OverlordClass .footer i {
+  float: left;
+  width: 12rem;
+  height: 100%;
+}
+.OverlordClass .footer i img {
+  height: 9.63rem;
+}
+.OverlordClass .footer .info {
+  padding-top: 0.85rem;
+}
+.OverlordClass .footer .info input {
+  width: 9.39rem;
+  height: 2.55rem;
+  background: #ffffff;
+  border-radius: 1.28rem;
+  border: none;
+  margin-bottom: 0.64rem;
+  margin-left: 0.8rem;
+  text-indent: 0.8rem;
+  font-size: 1.02rem;
+}
+.OverlordClass .footer .info input:first-child,
+.OverlordClass .footer .info input:nth-child(3) {
+  margin-left: -0.5rem;
+}
+.OverlordClass .footer .info .btn {
+  background: linear-gradient(180deg, #ffe892 0%, #fea300 100%);
+  border-radius: 1.28rem;
+  font-size: 1.19rem;
+  color: #ef3c42;
+  width: 19.5rem;
+  height: 2.55rem;
+  line-height: 2.55rem;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+  margin-left: -0.5rem;
+}
+.OverlordClass .dialog-mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 7;
+  display: none;
+}
+.OverlordClass .maskinput {
+  width: 29.44rem;
+  height: 32.17rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -20rem;
+  margin-left: -14.5rem;
+  background: url(images/maskInputbg.png) no-repeat center / 100%;
+  z-index: 10;
+}
+.OverlordClass .maskinput .close {
+  width: 3.16rem;
+  height: 3.16rem;
+  background: url(images/guanbi.png) no-repeat center / 100%;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+}
+.OverlordClass .maskinput .inputwrap {
+  position: absolute;
+  top: 12rem;
+  left: 50%;
+  margin-left: -8.5rem;
+  width: 17.07rem;
+}
+.OverlordClass .maskinput .inputwrap input {
+  height: 2.56rem;
+  background: #ffffff;
+  border-radius: 1.28rem;
+  border: none;
+  margin-bottom: 0.8rem;
+  width: 100%;
+  text-indent: 1rem;
+}
+.OverlordClass .maskinput .inputwrap .btn {
+  width: 17.07rem;
+  height: 2.56rem;
+  line-height: 2.56rem;
+  background: linear-gradient(180deg, #ffe892 0%, #fea300 100%);
+  border-radius: 1.28rem;
+  text-align: center;
+  font-size: 1.19rem;
+  color: #EF3C42;
+  font-weight: bold;
+}
+.OverlordClass .success {
+  width: 29.44rem;
+  height: 25.69rem;
+  position: fixed;
+  top: 10rem;
+  left: 50%;
+  margin-left: -14.72rem;
+  background: url(images/successbg.png) no-repeat center / 100%;
+  z-index: 100;
+}
+.OverlordClass .success .content {
+  width: 23.72rem;
+  height: 24.19rem;
+  margin: 1.45rem auto 0;
+  text-align: center;
+  position: relative;
+}
+.OverlordClass .success .content .close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  width: 2.8rem;
+  height: 2.8rem;
+  background: url(images/closeicon.png) no-repeat center / 1.37rem;
+}
+.OverlordClass .success .content h1 {
+  font-size: 1.71rem;
+  padding-top: 2.9rem;
+  color: #FF8000;
+  font-weight: bold;
+}
+.OverlordClass .success .content h1 img {
+  width: 1.88rem;
+  margin-right: 0.5rem;
+  position: relative;
+  top: -0.2rem;
+}
+.OverlordClass .success .content h2 {
+  font-size: 1.19rem;
+  color: #666666;
+  margin-top: 1.2rem;
+}
+.OverlordClass .success .content .code {
+  display: inline-block;
+  padding: 0.43rem;
+  background: #ccccccbf;
+  border-radius: 0.6rem;
+  margin-top: 0.5rem;
+}
+.OverlordClass .success .content .code img {
+  width: 7.34rem;
+}
+.OverlordClass .success .content p {
+  font-size: 1.02rem;
+  color: #ff8000;
+  line-height: 1.7;
+  margin-top: 1.02rem;
+}

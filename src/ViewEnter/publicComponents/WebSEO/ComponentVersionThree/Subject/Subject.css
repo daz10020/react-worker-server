@@ -1,0 +1,249 @@
+.Subject {
+  padding: 1rem 0;
+  text-align: center;
+}
+.Subject .Subject-content {
+  margin-top: 1rem;
+  overflow: hidden;
+}
+.Subject .Subject-content .typeOne .Subject-block1 {
+  width: 17%;
+  float: left;
+  height: 8rem;
+  position: relative;
+}
+.Subject .Subject-content .typeOne .Subject-block1 div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(255, 255, 255, 0.2);
+  z-index: 3;
+}
+.Subject .Subject-content .typeOne .Subject-block1 img {
+  width: 100%;
+  height: 100%;
+}
+.Subject .Subject-content .typeOne .Subject-box {
+  width: 66%;
+  float: left;
+  height: 8rem;
+}
+.Subject .Subject-content .typeOne .Subject-box .slick-arrow {
+  width: 1.667rem;
+  height: 1.667rem;
+  border-radius: 50%;
+  z-index: 10;
+}
+.Subject .Subject-content .typeOne .Subject-box .slick-arrow:before {
+  content: " ";
+  width: 1rem;
+  height: 1rem;
+  display: block;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.Subject .Subject-content .typeOne .Subject-box .slick-arrow:before:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+.Subject .Subject-content .typeOne .Subject-box .slick-prev:before {
+  background: url('image/zuo.png') no-repeat center;
+}
+.Subject .Subject-content .typeOne .Subject-box .slick-next:before {
+  background: url('image/you.png') no-repeat center;
+}
+.Subject .Subject-content .typeOne .Subject-box .slick-prev {
+  left: -2.5rem;
+  top: 50%;
+}
+.Subject .Subject-content .typeOne .Subject-box .slick-next {
+  right: -3rem;
+  top: 50%;
+}
+.Subject .Subject-content .typeOne .Subject-box .Subject-block2 {
+  float: left;
+  position: relative;
+  height: 8rem;
+  overflow: hidden;
+}
+.Subject .Subject-content .typeOne .Subject-box .Subject-block2 img {
+  width: 100%;
+  height: 100%;
+}
+.Subject .Subject-content .typeOne .Subject-box .Subject-block2 span {
+  display: inline-block;
+  position: absolute;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  line-height: 8rem;
+  font-size: 0.47rem;
+  font-weight: bold;
+  color: #ffffff;
+  transition: all 0.1s;
+}
+.Subject .Subject-content .typeOne .Subject-box .Subject-block2:hover div {
+  top: 0;
+}
+.Subject .Subject-content .typeOne .Subject-box .Subject-block2:hover span {
+  display: none;
+}
+.Subject .Subject-content .typeOne .Subject-box .Subject-block2 div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: rgba(255, 128, 0, 0.7);
+  text-align: center;
+  padding-top: 1.2rem;
+  transition: all 1s ;
+}
+.Subject .Subject-content .typeOne .Subject-box .Subject-block2 div h2 {
+  font-size: 0.47rem;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 0.42rem;
+}
+.Subject .Subject-content .typeOne .Subject-box .Subject-block2 div p {
+  font-size: 0.33rem;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 0.5rem;
+  padding: 0.3rem 1rem;
+  text-align: left;
+}
+.Subject .Subject-content .typeOne .Subject-box .Subject-block2 div button {
+  width: 2.5rem;
+  height: 0.83rem;
+  text-align: center;
+  line-height: 0.83rem;
+  border: 2px solid #fff;
+  border-radius: 0rem;
+  font-size: 0.33rem;
+  font-weight: 400;
+  color: #ffffff;
+  background: transparent;
+  margin-top: 0.6rem;
+  cursor: pointer;
+}
+.Subject .Subject-content .typeTwo .Subject-block1 {
+  width: 17%;
+  float: left;
+  height: 8rem;
+}
+.Subject .Subject-content .typeTwo .Subject-block1 img {
+  width: 100%;
+  height: 100%;
+}
+.Subject .Subject-content .typeTwo .Subject-block2 {
+  width: 22%;
+  float: left;
+  position: relative;
+  height: 8rem;
+  overflow: hidden;
+}
+.Subject .Subject-content .typeTwo .Subject-block2 img {
+  width: 100%;
+  height: 100%;
+}
+.Subject .Subject-content .typeTwo .Subject-block2 span {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.47rem;
+  font-weight: bold;
+  color: #ffffff;
+  transition: all 0.1s;
+}
+.Subject .Subject-content .typeTwo .Subject-block2:hover div {
+  top: 0;
+}
+.Subject .Subject-content .typeTwo .Subject-block2:hover span {
+  display: none;
+}
+.Subject .Subject-content .typeTwo .Subject-block2 div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: rgba(255, 128, 0, 0.7);
+  text-align: center;
+  padding-top: 2.5rem;
+  transition: all 1s ;
+}
+.Subject .Subject-content .typeTwo .Subject-block2 div h2 {
+  font-size: 0.47rem;
+  font-weight: bold;
+  color: #ffffff;
+  line-height: 0.42rem;
+}
+.Subject .Subject-content .typeTwo .Subject-block2 div p {
+  font-size: 0.33rem;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 0.5rem;
+  padding: 0.3rem 1rem;
+  text-align: left;
+}
+.Subject .Subject-content .typeTwo .Subject-block2 div button {
+  width: 2.5rem;
+  height: 0.83rem;
+  text-align: center;
+  line-height: 0.83rem;
+  border: 2px solid #fff;
+  border-radius: 0rem;
+  font-size: 0.33rem;
+  font-weight: 400;
+  color: #ffffff;
+  background: transparent;
+  margin-top: 1.2rem;
+  cursor: pointer;
+}
+.Subject .Subject-bottom {
+  height: 3rem;
+  margin: 0 auto;
+  box-shadow: 0rem 0.3rem 0.3rem 0.2rem rgba(0, 0, 0, 0.02);
+  display: inline-block;
+}
+.Subject .Subject-bottom div {
+  width: 2.5rem;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  padding-top: 0.3rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-right: 1px solid #E8E8E8;
+}
+.Subject .Subject-bottom div:nth-last-child(1) {
+  border: none;
+}
+.Subject .Subject-bottom div span {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  box-shadow: 0.01rem 0.12rem 0.12rem 0.02rem rgba(0, 0, 0, 0.05);
+}
+.Subject .Subject-bottom div span img {
+  width: 100%;
+}
+.Subject .Subject-bottom div .course-name {
+  font-size: 0.3rem;
+  font-weight: 400;
+  color: #333333;
+  line-height: 0.8rem;
+}
+.Subject .Subject-bottom div .english-name {
+  font-size: 0.23rem;
+  font-weight: 400;
+  color: #999999;
+}

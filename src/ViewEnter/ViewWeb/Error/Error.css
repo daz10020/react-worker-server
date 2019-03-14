@@ -1,0 +1,31 @@
+.error{
+background-color: #f5fdff;
+ height: 100%;
+}
+.error section {
+ position: fixed;
+ z-index: 6;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%,-50%);
+}
+.error section a{
+ height: 57px;
+ width: 450px;
+ background-color: #5c9ec1;
+ color: white;
+ font-size: 28px;
+ text-align: center;
+ line-height: 52px;
+ cursor: pointer;
+ margin-left: 49px;
+}
+.error section a:hover{
+
+ background-color: black;
+
+}
+
+
+
+

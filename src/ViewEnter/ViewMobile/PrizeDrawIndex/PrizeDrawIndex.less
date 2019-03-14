@@ -1,0 +1,261 @@
+@wrapRadius: 86vw;
+@differMargin: 0.5rem;
+@circleMargin: 1rem;
+@orange-1: #FF730D;
+.PrizeDrawIndex {
+  min-height: 100vh;
+  -webkit-background-size: cover;
+  background-size: cover;
+  //background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .opc {
+    .am-activity-indicator-content {
+      opacity: 0;
+    }
+  }
+  .logo {
+    width: 35vw;
+    margin-top: 1.5rem;
+  }
+  .page1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100vh - 7rem);
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    .tit {
+      width: 60vw;
+      min-height: 34vw;
+    }
+    .wrapper {
+      width: @wrapRadius;
+      height: @wrapRadius;
+      position: relative;
+      margin-top: -1.5rem;
+      &:before,&:after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      &:before {
+        background: #ffd200;
+        filter: blur(50px);
+      }
+      &:after {
+        background-color: RGBA(216, 84, 9, 1);
+        box-shadow: 0px 1px 16px 0 RGBA(203, 76, 9, 0.55),inset 1px 1px 6px 0 #FF9137;
+      }
+
+      .d {
+        position: relative;
+        margin-top: @differMargin;
+        margin-left: @differMargin;
+        width: calc(@wrapRadius - 2 * @differMargin);
+        height: calc(@wrapRadius - 2 * @differMargin);
+        background-size: cover;
+        overflow: hidden;
+        z-index: 1;
+        .circleBox {
+          margin-top: @circleMargin;
+          margin-left: @circleMargin;
+          width: calc(@wrapRadius - 2 * @circleMargin - 2 * @differMargin);
+          height: calc(@wrapRadius - 2 * @circleMargin - 2 * @differMargin);
+          position: relative;
+          .circle {
+            width: 100%;
+            height: 100%;
+          }
+          .btn {
+            width: 22vw;
+            height: 26vw;
+            background-size: cover;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -11vw;
+            margin-top: -15vw;
+            background-position: top left;
+          }
+        }
+      }
+    }
+  }
+  .page2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    min-height: calc(100vh - 5.5rem - 6vw);
+    justify-content: space-between;
+    margin: 2.2rem 0 1.8rem;
+    .tit {
+      width: 69vw;
+    }
+    .txt {
+      margin-bottom: -0.4rem;
+      height: 3.5rem;
+      line-height: 3.5rem;
+      text-align: center;
+      border-radius: 1.75rem;
+      padding: 0 2rem;
+      font-size: 1.9rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: #fff;
+      background: rgba(0,0,0,0.3);
+    }
+    .sucBox {
+      width: 90vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 0.6rem;
+      //background: #fff;
+      //padding-bottom: 4rem;
+      //overflow: hidden;
+      -webkit-background-size: cover;
+      background-size: 100% 100%;
+      .rd {
+        font-size: 1.9rem;
+        font-weight: bold;
+        height: 11.7vw;
+        line-height: 11.7vw;
+        color: #F11212;
+        letter-spacing: 2px;
+      }
+      //.x {
+      //  position: relative;
+      //  width: calc(100% - 2rem);
+      //  transform: scaleY(0.5);
+      //  border-bottom: 1px dashed #BCBCBC;
+      //  &:before,&:after {
+      //    content: '';
+      //    width: 1.2rem;
+      //    height: 1.2rem;
+      //    background: @orange-1;
+      //    border-radius: 50%;
+      //    position: absolute;
+      //    top: -0.6rem;
+      //    left: -1.6rem;
+      //    transform: scaleY(2);
+      //  }
+      //  &:after {
+      //    left: unset;
+      //    right: -1.6rem;
+      //  }
+      //}
+      .codeBox {
+        width: calc(100% - 2rem);
+        height: 11.7vw;
+        line-height: 11.7vw;
+        //background: #F2F2F2;
+        border-radius: 0.4rem;
+        text-align: center;
+        font-size: 1.8rem;
+        color: #191919;
+        position: relative;
+        margin: 7.2vw 0 7vw;
+        .copyBtn {
+          width: auto;
+          height: 1.8rem;
+          line-height: 1.8rem;
+          border-radius: 0.9rem;
+          padding: 0 0.9rem;
+          position: absolute;
+          right: 0.8rem;
+          top: 50%;
+          margin-top: -0.9rem;
+          color: #fff;
+          font-size: 1.1rem;
+          background: linear-gradient(to left, #FF8000, #FF6425);
+        }
+      }
+    }
+    .desc {
+      margin: -0.2rem 0;
+      font-size: 1.4rem;
+      color: #fff;
+      line-height: 1;
+      font-family: auto;
+    }
+    .resBtn {
+      width: auto;
+      color: #fff;
+      font-size: 1.6rem;
+      line-height: 1;
+      font-family: auto;
+      letter-spacing: 2px;
+      position: relative;
+      &:after {
+        content: '';
+        height: 1px;
+        width: 100%;
+        background: #fff;
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+      }
+    }
+    .desctxt {
+      width: 90vw;
+      font-size: 1rem;
+      font-family: auto;
+      line-height: 1.3rem;
+      color: #FEFEFE;
+      .p {
+        margin-bottom: 0.6rem;
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+  .fdesc {
+    width: 100vw;
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1;
+  }
+}
+.dialog {
+  .am-modal-title {
+    font-size: 2rem;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  .am-modal-body {
+    padding: 0 30px 30px !important;
+    .am-list-body {
+      margin-top: 5rem;
+      &:before {
+        content: none !important;
+      }
+    }
+  }
+  .am-modal-footer {
+    padding: 0 30px 48px;
+    .am-modal-button-group-v {
+      border-radius: 2.2rem;
+      background: linear-gradient(to left, #FF8000, #FF6425);
+      box-shadow: 0 0.4rem 1rem 0 rgba(255, 128, 0, 0.6);
+      .am-modal-button {
+        height: 4rem;
+        color: #fff;
+        font-size: 1.6rem;
+        line-height: 4rem;
+        &:before {
+          content: unset;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,147 @@
+.MSider .rotate180{
+  transform:rotate(180deg);
+  -ms-transform:rotate(180deg); 	/* IE 9 */
+  -moz-transform:rotate(180deg); 	/* Firefox */
+  -webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+  -o-transform:rotate(180deg); 	/* Opera */
+}
+
+.MSider button{
+  border: 0;
+  cursor: pointer;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently*/
+
+}
+.MSider button:hover{
+  background-color: #FF8000;
+  color: white;
+}
+
+.MSider{
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 1.3rem 0;
+  /* margin-bottom: 65px; */
+
+}
+
+.MSider aside{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  width:100%;
+  height: 18rem;
+  margin-top: 1.16rem;
+  position: relative;
+}
+
+.MSider aside ul{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  right: 0;
+
+}
+
+/*.MSider aside>img{
+  width: 20rem;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+
+}*/
+.MSider aside ul>div>img{
+  cursor: pointer;
+  width: 2.54rem;
+  height: 2.54rem;
+}
+.MSider aside ul>div{
+  cursor: pointer;
+  width: 2.54rem;
+  height: 2.54rem;
+  box-shadow: 0px 0px 10px #cccccc;
+  border-radius:50%;
+}
+
+.MSider aside .wrop{
+  width: 23rem;
+  overflow: hidden;
+  margin-top: 3rem;
+}
+.MSider .wrop ol.cpnt{
+  width: 115rem;
+  height: 10rem;
+}
+.MSider aside ul ol.cpnt li{
+  float: left;
+  width: 23rem;
+  height:12rem;
+  position: relative;  
+}
+/*.MSider aside ul ol.cpnt li>img{
+  width: 8.75rem;
+  height: 8.75rem;
+}*/
+.MSider aside ul li p:nth-of-type(1){
+  font-size:1.33rem;
+  color:#0E0E0E;
+  text-align: left;
+  font-weight: 600;
+  margin-top: 0;
+}
+.MSider aside ul li p:nth-of-type(2){
+  font-size:0.82rem;
+  color:#333333;
+  line-height:1.5rem;
+  text-align: left;
+}
+.MSider aside ul li button{
+  font-size:1.1rem;
+  color:#ffffff;
+  text-align:center;
+  background:#FF8000;
+  border-radius:1.1rem;
+  width:8rem;
+  height:2.17rem;
+  line-height:2.17rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -4rem;
+  bottom: 0;
+}
+
+.MSider aside .wrop .teacher-box{
+	display: flex;
+  /*flex-direction: column;
+  justify-content:center;
+  align-items: center;*/
+  position: relative;
+  padding: 0 1rem;
+}
+
+.MSider aside .wrop .teacher-img{
+	width:7rem;
+}
+
+.MSider aside .wrop .teacher-img img{
+	width:100%;
+}
+
+.MSider aside .wrop .teacher-desc{
+	flex:1!important;
+	margin-left: .7rem;
+}

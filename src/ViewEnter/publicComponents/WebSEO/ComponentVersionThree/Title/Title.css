@@ -1,0 +1,25 @@
+.Title .title {
+  line-height: 1.1;
+}
+.Title .title span {
+  font-size: 0.67rem;
+  color: #191919;
+  font-weight: bold;
+}
+.Title .title .bold {
+  position: relative;
+  z-index: 1;
+  font-size: 1.33rem;
+  font-weight: bold;
+  color: #191919;
+}
+.Title .title .bold:before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0.38rem;
+  background: #FF8000;
+  z-index: -1;
+}

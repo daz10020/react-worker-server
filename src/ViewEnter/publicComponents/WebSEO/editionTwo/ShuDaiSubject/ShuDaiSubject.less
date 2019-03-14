@@ -1,0 +1,117 @@
+ .session_content {
+    width: 20rem;
+    margin: 0 auto;
+    ul {
+      margin: 0 auto;
+      overflow: hidden;
+      li {
+        width: 5rem;
+        height: 3.5rem;
+        float: left;
+        border: 1px solid #d7d7d7;
+        text-align: center;
+        position: relative;
+        cursor: pointer;
+        img{
+          display: block;
+          margin: 0 auto;
+          width:0.58rem;
+          height:0.7rem;
+          margin-top: 0.6rem;
+        }
+        .session_name {
+          font-size: 0.4rem;
+          color: #4a4a4a;
+          margin-top: 0.4rem;
+        }
+        span{
+          font-size: 0.33rem;
+        }
+        .hoverImg{
+          display: none;
+        }
+   
+
+
+      }
+      li:hover{
+        .session_name{
+          color: #FF8000;
+        }
+        .morenIng{
+          display: none;
+        }
+        .hoverImg{
+          display: block;
+        }
+        span{
+          color: #FF8000;          
+        }
+      }
+      li:nth-child(2) img{
+        width:0.7rem;
+        height:0.7rem;
+      }
+      li:nth-child(3) img,
+      li:nth-child(4) img{
+        width:0.72rem;
+        height:0.73rem;
+      }
+      li:nth-child(5) img{
+        width:0.9rem;
+        height:0.65rem;
+      }
+      li:nth-child(6) img{
+        width:0.65rem;
+        height:0.65rem;
+      }
+      li:nth-child(7) img{
+        width:0.72rem;
+        height:0.72rem;
+      }
+      li:nth-child(8) img{
+        width:0.62rem;
+        height:0.77rem;
+      }
+
+      li:nth-child(4n) {
+        border-right: none;
+      }
+      li:nth-child(1),
+      li:nth-child(5) {
+        border-left: none;
+      }
+      li:nth-child(6),
+      li:nth-child(7),
+      li:nth-child(8),
+      li:nth-child(5) {
+        border-bottom: none;
+      }
+      li:nth-child(1),
+      li:nth-child(2),
+      li:nth-child(3),
+      li:nth-child(4) {
+        border-top: none;
+      }
+    }
+  }
+
+   .session_fouter{
+    margin:1rem 0;
+   
+    text-align: center;
+    p{
+      b{
+        width:2.12rem;
+        height:0.03rem;
+        background:rgba(191,191,191,1);
+        display: inline-block;
+        margin:0.2rem 0 ;
+      }
+      span{
+        font-size:0.53rem;
+        color:#FF8000;
+        padding: 0 1.5rem;
+      }
+    }
+  }

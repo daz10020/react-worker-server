@@ -1,0 +1,68 @@
+.mapper{
+  height: 80px;
+  width: 100%;
+}
+.index-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  height: 80px;
+  width: 100%;
+  background-color: #fff;
+  line-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.index-header img{
+  margin-left: 72px;
+  color:#333
+}
+.index-header nav{
+  min-width: 800px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.index-header nav a{
+  width: auto;
+  float: left;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  height: 89%;
+}
+.index-header .Inactive{
+  border-bottom: 4px solid black!important;
+
+}
+.index-header nav a:hover{
+  border-bottom: 4px solid black;
+
+}
+.index-header>a:first-child{
+  width: auto;
+  height: auto;
+
+}
+.index-header>a:last-child{
+  flex-shrink: 0;
+  border:1px solid #4a4a4a;
+  border-radius:4px;
+  width:118px;
+  height:38px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 16px;
+  margin-right: 71px;
+  color:#4a4a4a;
+  cursor: pointer;
+}
+.index-header>a:last-child:hover{
+  background-color: black;
+  border:0 ;
+  color: white;
+}
+

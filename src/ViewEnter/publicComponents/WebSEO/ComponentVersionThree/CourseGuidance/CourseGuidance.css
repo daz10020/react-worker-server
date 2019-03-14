@@ -1,0 +1,139 @@
+.guide-content {
+  width: 70%;
+  margin: 3rem auto 2rem;
+  display: flex;
+  position: relative;
+}
+.guide-content .guide-left {
+  flex: 1;
+}
+.guide-content .guide-left .guide-left-img {
+  position: sticky;
+  top: 5rem;
+  transform: translateY(-50%);
+  height: 3rem;
+  text-align: right;
+  padding-right: 1.5rem;
+}
+.guide-content .guide-left .guide-left-img .img-block {
+  width: 3rem;
+  height: 3rem;
+  float: right;
+}
+.guide-content .guide-left .guide-left-img .img-block img {
+  width: 100%;
+  height: 100%;
+}
+.guide-content .guide-left .guide-left-img .img-block img.show {
+  display: block;
+  transition: all 0.3s;
+  animation: twinkling3 1.2s;
+}
+.guide-content .guide-left .guide-left-img .img-block img.hide {
+  display: none;
+  transition: all 0.3s;
+  animation: twinkling4 1.2s;
+}
+@keyframes twinkling3 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes twinkling4 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.guide-content .guide-right {
+  flex: 1;
+}
+.guide-content .guide-right .guide-right-text {
+  border-left: solid 1px #ccc;
+}
+.guide-content .guide-right .guide-right-text .text-block {
+  margin-left: 72px;
+  height: 6rem;
+  margin-bottom: 1.2rem;
+}
+.guide-content .guide-right .guide-right-text .text-block .text-block-inner {
+  width: 6.5rem;
+  position: sticky;
+  top: 5rem;
+  transform: translateY(-50%);
+}
+.guide-content .guide-right .guide-right-text .text-block .text-block-inner h2 {
+  font-size: 0.67rem;
+  font-weight: 400;
+  color: #191919;
+}
+.guide-content .guide-right .guide-right-text .text-block .text-block-inner p {
+  font-size: 0.33rem;
+  font-weight: 400;
+  color: #666666;
+  line-height: 0.5rem;
+}
+.guide-content .guide-right .guide-right-text .text-block .text-block-inner span {
+  font-size: 0.4rem;
+  font-weight: bold;
+  color: #191919;
+  line-height: 1rem;
+  cursor: pointer;
+}
+.guide-content .guide-right .guide-right-text .text-block .text-block-inner span:hover img {
+  margin-left: 0.2rem;
+}
+.guide-content .guide-right .guide-right-text .text-block .text-block-inner span img {
+  margin-left: 0.1rem;
+  transition: all 0.1s;
+}
+.guide-content .guide-right .guide-right-text .text-block .text-block-inner.hide::before {
+  content: "";
+  position: absolute;
+  top: 1.5rem;
+  left: -86px;
+  width: 30px;
+  height: 30px;
+  border: solid #ccc 1px;
+  background-color: white;
+  border-radius: 100%;
+  animation: twinkling2 0.2s;
+}
+.guide-content .guide-right .guide-right-text .text-block .text-block-inner.active::before {
+  content: "";
+  position: absolute;
+  top: 1.5rem;
+  left: -97px;
+  width: 30px;
+  height: 30px;
+  background-color: #FF8000;
+  border-radius: 100%;
+  box-sizing: content-box;
+  border: solid white 10px;
+  animation: twinkling 0.2s;
+}
+@keyframes twinkling {
+  0% {
+    opacity: 0.5;
+    transform: scale(0.7);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes twinkling2 {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0.5;
+    transform: scale(0.7);
+  }
+}

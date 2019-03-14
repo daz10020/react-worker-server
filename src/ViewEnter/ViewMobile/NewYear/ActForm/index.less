@@ -1,0 +1,165 @@
+@yellow-1: #FFD3A3;
+@red-1: #B6000E;
+.acrform {
+  height: 100vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .logo {
+    height: 2.5rem;
+  }
+  .title {
+    color: @yellow-1;
+    font-family: FZLTCHJW--GB1-0;
+    line-height: 1;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-top: 6rem;
+    .tit1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .tit2 {
+      font-size: 4rem;
+    }
+  }
+  .fudai {
+    height: 80vw;
+  }
+  .showBtn {
+    width: fit-content;
+    height: 4.45rem;
+    border-radius: 2.225rem;
+    .showBtnImg {
+      height: 4.45rem;
+      display: block;
+    }
+    &:before {
+      content: normal !important;
+    }
+  }
+}
+.formWrap {
+  width: auto;
+  .am-modal-content {
+    background: transparent;
+    .form {
+      width: 75vw;
+      background: @red-1;
+      padding: 2.4rem 2.4rem 3rem;
+      margin-bottom: 1.8rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: @yellow-1;
+      line-height: 1;
+      .formTit {
+        font-size: 1.6rem;
+        font-weight: bold;
+        font-family: FZLTCHJW--GB1-0;
+        margin-bottom: 0.8rem;
+        letter-spacing: 1px;
+      }
+      .formSubTit {
+        font-size: 1.1rem;
+        font-family: FZLTHJW--GB1-0;
+        margin-bottom: 3.2rem;
+      }
+      .formList {
+        margin-bottom: 2.4rem;
+        .am-list-body {
+          background: @red-1;
+          &:before, &:after {
+            content: normal;
+          }
+        }
+        .am-list-item.am-input-item {
+          background: #90000B;
+          padding-left: 0;
+          border: 0;
+          border-radius: 0.4rem;
+          min-height: 3.6rem;
+          height: 3.6rem;
+          margin-bottom: 0.8rem;
+          .am-list-line {
+            padding-right: 0;
+            &:after {
+              content: normal;
+            }
+          }
+          .am-input-label {
+            color: @yellow-1;
+            width: 6rem;
+            height: 3.6rem;
+            line-height: 3.6rem;
+            font-size: 1.5rem;
+            font-family: FZLTHJW--GB1-0;
+            text-align: center;
+            padding: 0;
+            margin-right: 0;
+            position: relative;
+            &:after {
+              content: '';
+              position: absolute;
+              width: 1px;
+              height: 3.6rem;
+              top: 0;
+              right: 0;
+              transform: scaleX(0.5);
+              background: @red-1;
+            }
+          }
+          .am-input-control input {
+            padding-left: 0.65rem;
+            font-size: 1.5rem;
+            height: 3.6rem;
+            line-height: 3.6rem;
+            color: #fff;
+            font-family: FZLTHJW--GB1-0;
+          }
+          .am-input-extra {
+            max-height: 3.6rem;
+          }
+          .getCodeBtn {
+            font-size: 1.5rem;
+            color: @yellow-1;
+            font-family: FZLTHJW--GB1-0;
+            padding-right: 1rem;
+            line-height: 3.6rem;
+          }
+        }
+      }
+      .showBtn {
+        width: fit-content;
+        height: 3.6rem;
+        line-height: 3.6rem;
+        border-radius: 2.225rem;
+        background: linear-gradient(#FFDBB6, #FFBD71);
+        font-size: 1.6rem;
+        padding: 0 4.4rem;
+        color: @red-1;
+        span {
+          font-family: FZLTHJW--GB1-0;
+        }
+        &:before {
+          content: normal !important;
+        }
+      }
+    }
+    .clsImg {
+      width: 3.2rem;
+    }
+  }
+}
+/*
+修复Modal与toast共同使用时在Safari中z-index由于translateZ失效问题，
+设置am-picker-popup-wrap为translateZ(2px)，以大于Modal的translateZ(1px)
+*/
+.am-toast.am-toast-mask {
+  -webkit-transform: translateZ(2px);
+  transform: translateZ(2px)
+}

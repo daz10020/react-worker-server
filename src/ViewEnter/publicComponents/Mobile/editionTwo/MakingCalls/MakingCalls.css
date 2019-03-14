@@ -1,0 +1,12 @@
+.tel {
+  position: fixed;
+  top: 22rem;
+  right: 1rem;
+  z-index: 999;
+}
+.tel .tel-img {
+  width: 4rem;
+  height: 4rem;
+  background: url("电话@2x.png");
+  background-size: cover;
+}

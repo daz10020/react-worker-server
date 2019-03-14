@@ -1,0 +1,71 @@
+.mask-box .mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 20;
+}
+.mask-box .form-box {
+  position: absolute;
+  width: 7rem;
+  height: 7.1rem;
+  top: 50%;
+  left: 50%;
+  margin-left: -3.5rem;
+  margin-top: -3.8rem;
+  z-index: 22;
+  background: #ffffff;
+  border-radius: 0rem;
+  box-shadow: 8rem 0rem 16rem rgba(9, 9, 9, 0.15);
+  padding: 0.6rem 0.5rem;
+  text-align: center;
+  border-radius: 0.1rem;
+}
+.mask-box .form-box img {
+  position: absolute;
+  right: 0.2rem;
+  top: 0.2rem;
+  display: block;
+  width: 0.5rem;
+  height: 0.5rem;
+  cursor: pointer;
+}
+.mask-box .form-box h2 {
+  font-size: 0.42rem;
+  color: #ff8000;
+  line-height: 0.83rem;
+  text-align: center;
+  margin-bottom: 0.3rem;
+}
+.mask-box .form-box .input-box {
+  margin-top: 0.3rem;
+}
+.mask-box .form-box .input-box input {
+  width: 6rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  border: 0.02rem solid #CCCCCC;
+  padding-left: 0.2rem;
+  border-radius: 0.04rem;
+}
+.mask-box .form-box select {
+  width: 6rem;
+  height: 0.8rem;
+  margin-top: 0.3rem;
+  border: 0.02rem solid #CCCCCC;
+  padding-left: 0.2rem;
+  border-radius: 0.04rem;
+}
+.mask-box .form-box button {
+  width: 6rem;
+  height: 0.8rem;
+  background: #FF8000;
+  border-radius: 0rem;
+  font-size: 0.33rem;
+  color: #ffffff;
+  border: none;
+  margin-top: 0.8rem;
+  cursor: pointer;
+}

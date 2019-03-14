@@ -1,0 +1,71 @@
+.diaWrap {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 3;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .dialog {
+    z-index: 5;
+    width: 90vw;
+    margin-top: 15vh;
+    background: #fff;
+    padding: 2.5rem 2rem;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 0 0.4rem 0.8rem rgba(9,9,9,0.15);
+    -moz-box-shadow: 0 0.4rem 0.8rem rgba(9,9,9,0.15);
+    box-shadow: 0 0.4rem 0.8rem rgba(9,9,9,0.15);
+    .clsBtn {
+      margin-top: -1.5rem;
+      display: flex;
+      flex-direction: row-reverse;
+      .clsImg {
+        margin-right: -1rem;
+      }
+    }
+    .diaTit {
+      font-size: 2rem;
+      color: #FF8000;
+      line-height: 2.5rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .formItem {
+      margin-bottom: 1rem;
+      .diaInp {
+        height: 4rem;
+        padding-left: 2rem;
+        border-radius: 2rem;
+      }
+    }
+    .diaBtn {
+      border: 0;
+      height: 4rem;
+      width: 100%;
+      color: #fff;
+      margin-top: 1rem;
+      font-size: 1.6rem;
+      border-radius: 2rem;
+      background: linear-gradient(to right, #FF8000, #FF6425);
+    }
+  }
+  .modalbg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 4;
+    background-color: rgba(0, 0, 0, .3);
+  }
+  .ant-form-explain {
+    padding-left: 11px;
+  }
+}
+.none {
+  display: none;
+}

@@ -1,0 +1,58 @@
+.prize {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.prize .canvas-box {
+  position: absolute;
+  left: -10000px;
+  top: -10000px;
+}
+.prize .show-img {
+  padding-bottom: 5.17rem;
+}
+.prize .show-img img {
+  width: 100%;
+}
+.prize .bottom {
+  width: 100%;
+  height: 5.17rem;
+  background: rgba(182, 0, 14, 0.7985);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  padding-top: 0.6rem;
+}
+.prize .bottom span {
+  height: 3.71rem;
+  line-height: 3.71rem;
+  margin: 0 0.5rem;
+  display: inline-block;
+  background: linear-gradient(180deg, #ffdbb6 0%, #ffbd71 100%);
+  border-radius: 1.85rem;
+  font-size: 1.5rem;
+  font-family: FZLTHJW--GB1-0;
+  font-weight: normal;
+  color: #b6000e;
+}
+.prize .bottom span:nth-child(1) {
+  width: 11.67rem;
+}
+.prize .bottom span:nth-child(2) {
+  width: 15.83rem;
+}
+.prize .tips {
+  width: 100%;
+  height: 100%;
+  background: rgba(23, 23, 23, 0.8);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
+.prize .tips img {
+  width: 21.58rem;
+  float: right;
+  margin-right: 2rem;
+}

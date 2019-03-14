@@ -1,0 +1,168 @@
+.comparison {
+  background-color: #F5F5F5;
+  padding: 1rem 0;
+  position: relative;
+}
+.comparison h2 {
+  font-weight: 600;
+  text-align: center;
+  font-size: 0.73rem;
+  margin: 0;
+}
+.comparison b {
+  background-color: #4a4a4a;
+  display: block;
+  margin: 0.5rem auto 0.6rem;
+  height: 0.06666667rem;
+  width: 1.11666667rem;
+  border-radius: 0.16666667rem;
+}
+.comparison > div {
+  width: 20rem;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.comparison > div .clear {
+  clear: both;
+}
+.comparison > div > ul {
+  float: left;
+  margin: 0;
+}
+.comparison > div > ul > li:nth-child(1) {
+  height: 0.17rem;
+}
+.comparison > div > ul li > ul {
+  border-right: 1px solid #e1e1e1;
+}
+.comparison > div > ul li > ul li span {
+  text-align: left;
+}
+.comparison > div > ul li > ul li:nth-child(1) {
+  height: 1rem;
+  margin-bottom: 0.5rem;
+}
+.comparison > div > ul li > ul li:nth-child(2),
+.comparison > div > ul li > ul li:nth-child(3) {
+  height: 1rem;
+  margin-bottom: 1rem;
+}
+.comparison > div > ul li > ul li:nth-child(4),
+.comparison > div > ul li > ul li:nth-child(5) {
+  height: 2.3rem;
+  margin-bottom: 1rem;
+}
+.comparison > div > ul li > ul li:nth-child(6) {
+  height: 1.2rem;
+  margin-bottom: 1rem;
+}
+.comparison > div > ul li > ul li:nth-child(7) {
+  height: 0.85rem;
+  padding-bottom: 2rem;
+}
+.comparison > div > ul:nth-child(1) {
+  width: 3rem;
+  text-align: center;
+  font-size: 0.33rem;
+  color: #F3910D;
+}
+.comparison > div > ul:nth-child(1) > li:nth-child(1) {
+  background-color: #F3910D;
+}
+.comparison > div > ul:nth-child(1) ul > li:nth-child(2),
+.comparison > div > ul:nth-child(1) ul > li:nth-child(3) {
+  line-height: 1rem;
+}
+.comparison > div > ul:nth-child(1) ul > li:nth-child(4) {
+  line-height: 0.5rem;
+  padding-top: 0.5rem;
+}
+.comparison > div > ul:nth-child(1) ul > li:nth-child(5) {
+  line-height: 2.3rem;
+}
+.comparison > div > ul:nth-child(2) {
+  position: relative;
+  width: 8rem;
+}
+.comparison > div > ul:nth-child(2) .headBox {
+  display: none;
+  height: 0.5rem;
+  border-top: 0.17rem solid #FF8000;
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  z-index: 18;
+  left: 0;
+  top: -7px;
+}
+.comparison > div > ul:nth-child(2) .footBox {
+  display: none;
+  height: 8px;
+  border-left: 1px solid #e1e1e1;
+  border-right: 1px solid #e1e1e1;
+  width: calc(101%);
+  background-color: #fff;
+  position: absolute;
+  z-index: 19;
+  left: -1px;
+  bottom: -6px;
+  box-shadow: 0px 4px 2px 0px #eaeaea;
+}
+.comparison > div > ul:nth-child(2) > li:nth-child(1) {
+  background-color: #FF8000;
+}
+.comparison > div > ul:nth-child(2) ul li {
+  padding-left: 1rem;
+  color: #000;
+  font-size: 0.3rem;
+  line-height: 0.6rem;
+}
+.comparison > div > ul:nth-child(2) ul li:nth-child(1) {
+  color: #FF8000;
+  font-size: 0.5rem;
+  text-align: center;
+  line-height: 1rem;
+}
+.comparison > div > ul:nth-child(3),
+.comparison > div > ul:nth-child(4) {
+  width: 4.5rem;
+}
+.comparison > div > ul:nth-child(3) > li:nth-child(1),
+.comparison > div > ul:nth-child(4) > li:nth-child(1) {
+  background-color: #aaa;
+}
+.comparison > div > ul:nth-child(3) ul li,
+.comparison > div > ul:nth-child(4) ul li {
+  padding-left: 0.5rem;
+  font-size: 0.27rem;
+  color: #666;
+  line-height: 0.37rem;
+}
+.comparison > div > ul:nth-child(3) ul li:nth-child(1),
+.comparison > div > ul:nth-child(4) ul li:nth-child(1) {
+  font-size: 0.5rem;
+  text-align: center;
+  line-height: 1rem;
+}
+.comparison .comparison_left {
+  background-color: #F5F5F5;
+  width: 4rem;
+  height: 15rem;
+  background-image: url("编组拷贝.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+}
+.comparison .comparison_right {
+  background-color: #F5F5F5;
+  width: 3rem;
+  height: 10rem;
+  background-image: url("编组拷贝2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  bottom: 4rem;
+}

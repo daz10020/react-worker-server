@@ -1,0 +1,15 @@
+export const Images = {
+    bg:require('./images/bg.png'),
+    icon1:require('./images/icon1.png'),
+    icon2:require('./images/icon2.png'),
+    icon3:require('./images/icon3.png'),
+    icon4:require('./images/icon4.png'),
+    icon5:require('./images/icon5.png'),
+    icon6:require('./images/icon6.png'),
+    gongzhonghao:require('./images/gongzhonghao.png'),
+    zhenren:require('./images/zhenrenweixin.png'),
+    zaixainzixun:require('./images/zaixianzixun.png'),
+    footerimg:require('./images/footerimg.png'),
+    randomEntry:require('./images/randomEntry.png'),
+    successicon:require('./images/successicon.png'),
+  }

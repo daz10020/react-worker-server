@@ -1,0 +1,105 @@
+.vioSwiper {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 72vw;
+  margin: 0 auto 11rem;
+}
+.vioSwiper .swiperItem {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem 3rem;
+  transition: left 1s, right 1s, z-index 0s, opacity 0.5s 0.5s;
+  z-index: 0;
+}
+.vioSwiper .swiperItem .swpCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 55vw;
+  border-radius: 0.4rem;
+  line-height: 1;
+  -webkit-box-shadow: 0 0.1rem 1rem rgba(104, 104, 104, 0.6);
+  -moz-box-shadow: 0 0.1rem 1rem rgba(104, 104, 104, 0.6);
+  box-shadow: 0 0.1rem 1rem rgba(104, 104, 104, 0.6);
+  padding-bottom: 2.5rem;
+  transform: scale(0.8);
+  transition: all 1s;
+  background: #fff;
+}
+.vioSwiper .swiperItem .swpCon .vioImg {
+  margin-top: 3rem;
+  width: 6rem;
+}
+.vioSwiper .swiperItem .swpCon .vioName {
+  color: #191919;
+  font-size: 1.39rem;
+  margin-top: 1.5rem;
+  font-weight: bold;
+}
+.vioSwiper .swiperItem .swpCon .vioTit {
+  color: #ff8000;
+  font-size: 0.94rem;
+  margin-top: 1rem;
+}
+.vioSwiper .swiperItem .swpCon .vioTxt {
+  color: #666;
+  font-size: 1.02rem;
+  margin-top: 0.8rem;
+}
+.vioSwiper .swiperItem .swpCon .tips {
+  color: #666;
+  font-size: 1.02rem;
+  margin-top: 0.8rem;
+}
+.vioSwiper .swiperItem .swpCon .vioBtn {
+  width: 9rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  margin-top: 3.5rem;
+}
+.vioSwiper .swiperItem.act {
+  z-index: 2;
+  opacity: 1;
+}
+.vioSwiper .swiperItem.act .swpCon {
+  transform: scale(1);
+}
+.vioSwiper .swiperItem.prev {
+  opacity: 1;
+  left: -40vw;
+  z-index: 1;
+}
+.vioSwiper .swiperItem.next {
+  opacity: 1;
+  right: -40vw;
+  z-index: 1;
+}
+.vioSwiper .swpBtns {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+}
+.vioSwiper .swpBtns .swpBtn {
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  margin: 0.4rem;
+  background: #ff8000;
+  opacity: 0.5;
+}
+.vioSwiper .swpBtns .swpBtn.act {
+  background: #ff8000;
+  opacity: 1;
+}

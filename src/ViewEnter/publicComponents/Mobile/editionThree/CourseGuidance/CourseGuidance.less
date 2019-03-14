@@ -1,0 +1,70 @@
+.planList {
+    @orange: #ff8000;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    .planBox {
+      margin-bottom: 3rem;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
+      .planImg {
+        flex-shrink: 0;
+        width: 5.97rem;
+      }
+      .pland {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 1.5rem;
+        border-radius: 50%;
+        background: @orange;
+        position: relative;
+        &:before{
+            content: '';
+            width: 1px;
+            height: 7.85rem;
+            background: #E8E8E8;
+            position: absolute;
+            top: 2rem;
+            left: 0.75rem;
+          }
+      }
+      .planCon {
+        width: calc(90vw - 12.5rem);
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: column;
+
+        .planTit {
+          font-size: 1.62rem;
+          color: #191919;
+          margin-bottom: 0.5rem;
+          font-weight: bold;
+        }
+        .planTxt {
+          font-size: 0.94rem;
+          color: #666;
+          word-break: break-all;
+          line-height:1.5rem;
+        }
+      }
+    }
+    .center{
+        text-align:center;
+      .moreBtn {
+          font-size: 1.4rem;
+          color: #191919;
+          line-height: 1;
+          position: relative;
+          margin-bottom: 2rem;
+          display: inline-block;
+          .rightImg {
+            position: absolute;
+            width: 1.5rem;
+            top: 0.3rem;
+            right: -2rem;
+          }
+        }
+    }
+  }

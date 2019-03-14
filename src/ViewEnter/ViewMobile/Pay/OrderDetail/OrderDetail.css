@@ -1,0 +1,137 @@
+.order-box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: PingFangSC-Regular;
+}
+.order-box .order-header {
+  width: 100%;
+  height: 5rem;
+  background-image: url(tuan_bg.png);
+  background-size: 100% 100%;
+  background-position: center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.order-box .order-header .header {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  line-height: 5rem;
+  font-size: 1.33rem;
+  border-radius: 0.33rem;
+}
+.order-box .order-header .header span {
+  position: absolute;
+  display: inline-block;
+  height: 22px;
+  line-height: 22px;
+  left: 1rem;
+  top: 50%;
+  margin-top: -11px;
+}
+.order-box .payment-content {
+  padding: 1rem;
+  width: 100%;
+  position: absolute;
+  top: 5rem;
+  bottom: 0;
+  border-radius: 0.33rem;
+  background: #fbf9f7;
+}
+.order-box .payment-content .price {
+  width: 100%;
+  height: 6rem;
+  line-height: 6rem;
+  padding-left: 1rem;
+  font-size: 1.33rem;
+  color: #666666;
+  box-shadow: 0rem 0.08rem 0.75rem 0rem rgba(104, 104, 104, 0.05);
+  background: #fff;
+}
+.order-box .payment-content .price span {
+  font-size: 1.5rem;
+  color: #ff4220;
+  font-family: PingFangSC-Semibold;
+}
+.order-box .payment-content .order-list {
+  margin-top: 1rem;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0rem 0.08rem 0.75rem 0rem rgba(104, 104, 104, 0.05);
+  border-radius: 0.33rem;
+}
+.order-box .payment-content .order-list .order-number {
+  width: 100%;
+  height: 4rem;
+  line-height: 4rem;
+  padding-left: 1rem;
+  font-size: 1.17rem;
+  color: #666666;
+}
+.order-box .payment-content .order-list .order-course ul {
+  margin-bottom: 0;
+}
+.order-box .payment-content .order-list .order-course ul li {
+  background: #fff;
+  width: 100%;
+  height: 8rem;
+  padding: 1rem;
+}
+.order-box .payment-content .order-list .order-course ul li .course-box {
+  display: flex;
+  padding-bottom: 1.1rem;
+  border-bottom: 0.1rem solid #E8E8E8;
+}
+.order-box .payment-content .order-list .order-course ul li .course-box .course-img {
+  width: 5.5rem;
+  height: 5.5rem;
+}
+.order-box .payment-content .order-list .order-course ul li .course-box .course-img img {
+  width: 100%;
+  height: 100%;
+}
+.order-box .payment-content .order-list .order-course ul li .course-box .course-text {
+  flex: 1;
+  padding-left: 1rem;
+}
+.order-box .payment-content .order-list .order-course ul li .course-box .course-text .course-name {
+  font-size: 1.33rem;
+  color: #191919;
+  line-height: 1.5rem;
+}
+.order-box .payment-content .order-list .order-course ul li .course-box .course-text .course-hour {
+  font-size: 1rem;
+  color: #b4b4b4;
+  line-height: 1.67rem;
+}
+.order-box .payment-content .order-list .order-course ul li .course-box .course-text .course-hour span {
+  color: #FF4827;
+  margin: 0 .2rem;
+}
+.order-box .payment-content .order-list .order-course ul li .course-box .course-text .course-price span {
+  float: right;
+  font-size: 1rem;
+  color: #666666;
+  line-height: 1.38rem;
+}
+.order-box .payment-content .order-list .order-course .discount {
+  background: #fff;
+}
+.order-box .payment-content .order-list .order-course .discount p {
+  height: 4rem;
+  line-height: 4rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+  color: #191919;
+}
+.order-box .payment-content .order-list .order-course .discount p i {
+  display: inline-block;
+  width: 2rem;
+  height: 1rem;
+  margin-right: .6rem;
+}
+.order-box .payment-content .order-list .order-course .discount p i img {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,223 @@
+.thanks-giving {
+  width: 100%;
+  height: auto;
+  background-image: url('images/bg.png');
+  background-size: cover;
+  position: relative;
+}
+.thanks-giving h1 {
+  padding: 1rem 1.2rem;
+  font-size: 1.1rem;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 2.25rem;
+}
+.thanks-giving h1 img {
+  width: 2rem;
+  height: 3rem;
+  margin-right: 1rem;
+}
+.thanks-giving .banner {
+  width: 100%;
+  margin-top: -8%;
+}
+.thanks-giving .banner img {
+  display: block;
+  width: 24rem;
+  height: auto;
+  margin: 0 auto;
+}
+.thanks-giving .ticket {
+  width: 28.93rem;
+  height: 18.25rem;
+  margin: 0 auto;
+  margin-top: -6%;
+  background-image: url('images/qian_bg.png');
+  background-size: cover;
+  padding: 2rem 1.2rem;
+  padding-top: 6rem;
+}
+.thanks-giving .ticket .tick {
+  float: left;
+  width: 12.5rem;
+  height: 10.3rem;
+}
+.thanks-giving .ticket .tick .ticketType {
+  font-size: 1.79rem;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  color: #d64d3c;
+  line-height: 3.52rem;
+  text-align: center;
+}
+.thanks-giving .ticket .tick .ticketContent {
+  text-align: center;
+  padding-top: .5rem;
+}
+.thanks-giving .ticket .tick .ticketContent p .money {
+  font-size: 3.16rem;
+  font-family: FZLTCHJW--GB1-0;
+  font-weight: 600;
+  color: #fffcee;
+  line-height: 3.75rem;
+}
+.thanks-giving .ticket .tick .ticketContent p .word {
+  font-size: 1.54rem;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  color: #fffbee;
+  line-height: 2.13rem;
+}
+.thanks-giving .ticket .tick .ticketContent .ticketNote {
+  font-size: 1.02rem;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #fffbee;
+  line-height: 1.41rem;
+}
+.thanks-giving .ticket .tick:nth-child(1) {
+  margin-right: 1.5rem;
+}
+.thanks-giving .hint {
+  text-align: center;
+  font-size: 1.54rem;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  color: #f2f2f2;
+  line-height: 2.13rem;
+  margin: .8rem auto;
+}
+.thanks-giving .activeForm .label {
+  width: 28.93rem;
+  height: 3.75rem;
+  background: #fff;
+  border-radius: 0.34rem;
+  border: 0.04rem solid;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+.thanks-giving .activeForm .label Input {
+  height: 100%;
+  border: none;
+  padding: .5rem 1.5rem;
+  font-size: 1.4rem;
+}
+.thanks-giving .activeForm .label Button {
+  float: right;
+  top: 0.5rem;
+  border: none;
+  font-size: 1.28rem;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #d8513c;
+  line-height: 1.79rem;
+}
+.thanks-giving .activeForm .label .orange {
+  color: #666666;
+}
+.thanks-giving .activeForm .label:nth-child(3) Input {
+  width: 68%;
+}
+.thanks-giving .activeForm .label:nth-child(3) Input:focus {
+  box-shadow: none;
+}
+.thanks-giving .activeForm .button {
+  width: 28.93rem;
+  height: 3.93rem;
+  margin: 0 auto;
+  background: linear-gradient(180deg, #fbea82 0%, #f5d14b 100%);
+  border-radius: 1.96rem;
+  text-align: center;
+  font-size: 1.54rem;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  color: #db553b;
+  line-height: 4.13rem;
+}
+.thanks-giving .mine {
+  background: transparent;
+  border: none;
+  margin: 0 35%;
+}
+.thanks-giving .mine span {
+  font-size: 1.28rem;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 1.79rem;
+  text-align: center;
+  text-decoration: underline;
+}
+.thanks-giving .activeNote {
+  padding: 3rem 1.1rem;
+  font-size: 1.02rem;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  color: #f2f2f2;
+  line-height: 1.41rem;
+}
+.TicModal {
+  margin: 1rem;
+  border-radius: 0.68rem;
+}
+.TicModal .ant-modal .ant-modal-content {
+  width: 25.51rem;
+  height: 23.3rem;
+  border-radius: 0.68rem;
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.TicModal .ant-modal .ant-modal-content .ant-modal-close {
+  position: relative;
+  float: right;
+}
+.TicModal .ant-modal .ant-modal-content .ant-modal-body {
+  padding: 1rem 0rem;
+  position: absolute;
+  bottom: 3rem;
+}
+.TicModal .ant-modal .ant-modal-content .ant-modal-body .title {
+  font-size: 1.54rem;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  color: #191919;
+  line-height: 2.13rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+.TicModal .ant-modal .ant-modal-content .ant-modal-body .ant-input:focus {
+  border: none;
+  box-shadow: none;
+}
+.TicModal .ant-modal .ant-modal-content .ant-modal-body .mInput {
+  margin: 0 1.1rem;
+  margin-top: 1rem;
+  width: 23.13rem;
+  height: 3.75rem;
+  background: #f2f2f2;
+  border-radius: 0.34rem;
+  border: 0.04rem solid;
+}
+.TicModal .ant-modal .ant-modal-content .ant-modal-body .ant-btn:hover,
+.TicModal .ant-modal .ant-modal-content .ant-modal-body .ant-btn:focus {
+  color: #db553b;
+  border: none;
+  box-shadow: none;
+}
+.TicModal .ant-modal .ant-modal-content .ant-modal-body .btn {
+  margin: 0 1.1rem;
+  width: 23.13rem;
+  height: 3.93rem;
+  background: linear-gradient(180deg, #fbea82 0%, #f5d14b 100%);
+  border-radius: 1.96rem;
+  margin-top: 3rem;
+  font-size: 1.54rem;
+  font-family: PingFangSC-Semibold;
+  font-weight: 600;
+  color: #db553b;
+}
+#newBridge {
+  display: none;
+}
